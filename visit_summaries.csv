@@ -1,0 +1,1201 @@
+visit_id,chief_complaint,family_illnesses,medications,small_talk,mental_health_symptoms,past_medical_conditions,past_surgeries,symptoms,disease_category
+0,hypertension medication refill,[],[],False,[],"['hypertension', 'osteoarthritis', 'osteoporosis', 'hypothyroidism', 'allergic rhinitis', 'kidney stones']",[],[],cardiovascular
+1,worst headache of life,[],[],False,[],[],[],"['headache', 'blurry vision', 'scotoma', 'swelling in face', 'lightheadedness', 'writing difficulty']",neurological
+2,condylomas in anal region,[],[],False,[],[],[],"['warts', 'itching']",infectious
+3,,[],"['salmeterol inhaler', 'fluticasone nasal inhaler']",False,[],[],[],[],respiratory
+4,burn right arm,[],[],False,[],[],[],['burn'],injury/trauma
+5,asthma,[],[],False,[],['asthma'],[],[],respiratory
+6,,[],[],False,[],[],"['C-section', 'appendectomy']",[],injury/trauma
+7,,[],[],False,[],[],[],[],unsure
+8,,"['mother heart disease complications', 'father heart disease died in 40s', 'maternal uncles polio']",[],False,[],[],[],[],unsure
+9,,"['prostate cancer', 'brain cancer', 'heart disease', 'diabetes']",[],False,[],[],[],[],unsure
+10,worsening bunion deformity,[],[],False,[],['Charcot-Marie tooth disease'],[],['bunion'],musculoskeletal
+11,follow-up for elevated blood pressure and right arm symptoms,[],"['Mavik 1 mg', 'verapamil', 'Tylenol', 'Tums', 'Mylanta', 'Lexapro']",True,[],['hypertension'],[],"['right arm symptoms resolved', 'stomach pain', 'mouth sores', 'tremor']",cardiovascular
+12,,[],[],False,[],[],[],[],unsure
+13,,[],[],False,[],"['peptic ulcer disease', 'possible stroke']",[],['memory loss'],neurological
+14,left hemibody numbness,[],[],False,[],[],[],"['left hemibody numbness', 'right hand stiffness', 'right hand clumsiness', 'leaning to right when walking']",neurological
+15,,[],[],False,[],[],"['pacemaker placement', 'hysterectomy']",[],unsure
+16,right shoulder pain,[],[],False,[],[],[],"['right shoulder pain', 'popping sensation', 'weakness', 'difficulty lifting']",musculoskeletal
+17,intractable nausea and vomiting,[],[],False,[],[],[],"['nausea', 'vomiting']",gastrointestinal
+18,,[],[],False,[],[],[],[],unsure
+19,,[],[],False,[],[],[],[],unsure
+20,asthma flare-up,[],[],False,[],"['asthma', 'pneumonia']",[],"['cough', 'phlegm', 'difficulty breathing']",respiratory
+21,,[],[],False,[],[],[],[],unsure
+22,,[],[],True,['stress'],['high blood pressure'],[],[],cardiovascular
+23,,[],[],False,[],[],[],[],unsure
+24,hypoglycemia due to missed meals,[],[],False,[],"['hypertension', 'renal insufficiency']",[],['low blood sugar'],endocrine
+25,blood-borne pathogen exposure,[],[],False,[],[],[],['needlestick injury'],infectious
+26,motor vehicle accident,[],[],False,[],[],[],[],injury/trauma
+27,,[],[],False,[],[],[],[],unsure
+28,poison ivy rash,[],"['benadryl', 'cortisone cream']",False,[],[],[],"['rash', 'itching']",dermatological
+29,,"['skin cancer', 'high blood pressure']",[],False,[],"['cancer', 'hypertension']",[],[],oncology
+30,breast lump left upper outer quadrant,[],[],False,[],[],[],['breast lump'],oncology
+31,,[],[],True,[],[],[],[],unsure
+32,lump in chest wall,[],[],False,[],[],[],['lump in chest wall'],unsure
+33,urinary incontinence and vaginal prolapse concern,[],"['lasix', 'vaginal cream']",False,[],[],[],"['urinary incontinence', 'urge incontinence', 'frequent urination', 'vaginal protrusion', 'difficulty with bowel movement']",genitourinary
+34,difficulty expressing herself,[],[],False,[],['chronic urinary tract infections'],[],"['difficulty expressing herself', 'urinary drainage']",genitourinary
+35,,[],[],True,[],[],[],[],unsure
+36,progressive shortness of breath,[],[],True,[],"['chronic lymphocytic leukemia', 'cardiovascular issues']",[],"['shortness of breath', 'orthopnea', 'peripheral edema', 'wheezing', 'dyspnea']",cardiovascular
+37,,[],[],False,[],[],[],[],unsure
+38,balance problems,[],"['amoxicillin', 'cipro']",True,[],"['pneumonia', 'urinary tract infection']",[],"['balance problems', 'fatigue', 'weakness', 'back pain', 'difficulty with coordination']",neurological
+39,,[],[],False,[],[],[],[],unsure
+40,right hand pain after punching wall,[],[],False,[],[],[],['right hand pain'],injury/trauma
+41,head injury,[],[],True,[],[],[],['head injury'],injury/trauma
+42,,[],[],False,[],[],[],[],unsure
+43,,[],[],False,[],[],[],[],unsure
+44,dizzy spells with right upper extremity stiffness,[],[],False,[],[],[],"['dizzy spells', 'right upper extremity stiffness', 'post ictal fatigue']",neurological
+45,,[],[],False,[],[],[],[],unsure
+46,,[],[],False,[],[],"['right knee surgery', 'cosmetic surgery', 'carotid sinus surgery']",[],unsure
+47,,[],[],False,[],['disability'],[],[],unsure
+48,,[],[],False,[],[],[],[],respiratory
+49,,[],[],True,[],[],[],[],unsure
+50,,[],[],False,[],[],"['appendectomy', 'cholecystectomy']",[],unsure
+51,,[],[],False,[],[],[],[],unsure
+52,decreased level of consciousness,[],"['Xanax', 'Sinemet']",False,[],[],[],"['decreased consciousness', 'facial lacerations']",neurological
+53,,[],['Wellbutrin'],False,['depression'],['depression'],[],[],psychiatric
+54,,"['type 2 diabetes father', 'type 2 diabetes grandfather', 'breast cancer cousins', 'type 1 diabetes son']",[],False,[],[],[],[],unsure
+55,,[],[],False,[],['disability'],[],[],unsure
+56,,[],[],False,[],[],[],[],unsure
+57,,[],[],False,[],[],[],[],psychiatric
+58,,[],[],False,[],[],[],[],unsure
+59,pain,[],[],False,[],[],[],['pain'],musculoskeletal
+60,,[],[],False,[],[],['right knee surgery'],[],unsure
+61,,[],[],False,[],[],[],[],genitourinary
+62,,[],[],False,[],[],['excisional lymph node biopsy'],[],unsure
+63,,[],[],False,[],"['coronary artery disease', 'heart trouble']","['coronary artery bypass surgery', 'angioplasty', 'prostate biopsies']",[],cardiovascular
+64,,[],[],False,[],"['diabetes', 'hypertension', 'hyperlipidemia', 'osteoporosis']","['hysterectomy', 'salpingoophorectomy', 'appendectomy', 'tonsillectomy', 'parathyroidectomy', 'carpal tunnel release']",[],endocrine
+65,,['Huntington Disease'],[],False,['suicide attempts'],[],[],[],psychiatric
+66,,"['lupus', ""Addison's disease"", 'hypertension']",[],False,[],[],[],[],unsure
+67,,[],[],False,[],[],[],[],infectious
+68,,[],"['OxyContin', 'Vicodin']",False,[],[],[],[],unsure
+69,,[],"['Invega', 'Risperdal', 'multivitamins']",False,[],[],[],[],psychiatric
+70,,[],[],False,[],[],[],['slow movement on stairs'],unsure
+71,high potassium,[],[],False,[],[],[],['high potassium'],endocrine
+72,multiple trauma from motor vehicle accident,[],[],False,[],[],[],['multiple trauma'],injury/trauma
+73,,[],[],False,[],[],[],[],unsure
+74,,[],[],False,[],[],[],[],unsure
+75,Asthma and allergies,[],[],False,[],"['asthma', 'allergies']",[],[],respiratory
+76,,"['father had myocardial infarction', 'mother had stroke']",[],False,[],[],[],[],unsure
+77,,[],[],False,[],[],[],[],unsure
+78,right-sided facial droop and weakness,[],[],False,[],[],[],"['right-sided facial droop', 'right-sided weakness']",neurological
+79,follow-up polycythemia vera,[],[],True,[],['polycythemia vera'],[],[],oncology
+80,,"['cancer', 'heart disease']",[],False,[],"['cancer', 'coronary artery disease']",[],[],oncology
+81,,[],[],False,[],[],[],[],unsure
+82,type II diabetes,[],[],False,[],"['type II diabetes', 'high cholesterol']",[],[],endocrine
+83,yearly physical,[],[],False,[],"['asthma', 'allergic rhinitis', 'cervical dysplasia']",[],[],unsure
+84,seizures and abdominal pain with vomiting,[],[],False,[],"['febrile seizures', 'food intolerance']",['C-section delivery'],"['abdominal pain', 'vomiting', 'rash', 'bloating', 'mouth scratching', 'swelling around lips eyes face']",gastrointestinal
+85,,[],"['Advair', 'Allegra']",False,[],[],[],[],respiratory
+86,,[],[],False,[],[],[],[],unsure
+87,routine followup,[],['spironolactone'],False,[],['acne'],[],[],dermatological
+88,,[],[],False,[],['multiple falls'],[],[],unsure
+89,,[],[],False,[],[],[],[],unsure
+90,,[],[],False,[],[],[],[],unsure
+91,,[],[],False,[],[],[],[],unsure
+92,,[],[],False,[],[],[],[],unsure
+93,,[],[],False,[],[],[],[],injury/trauma
+94,,[],[],False,[],[],[],[],unsure
+95,,[],[],False,[],"['asthma', 'acne']",[],[],respiratory
+96,congestion and right great toe redness,[],['Allegra (stopped)'],False,[],[],[],"['congestion', 'snorting', 'redness on right great toe', 'skin peeling on toe']",respiratory
+97,toothache,[],[],False,[],[],[],['tooth pain'],unsure
+98,chronic knee pain,[],[],False,[],['knee pain'],[],['knee pain'],musculoskeletal
+99,,"['ovarian cancer', 'liver cancer', 'heart disease', 'diabetes']",[],False,[],[],[],[],unsure
+100,aortic stenosis,[],[],False,[],"['hypertension', 'chronic kidney disease', 'urinary tract infection', 'aortic stenosis']",[],['urinary infections'],cardiovascular
+101,,['grandmother had cerebral aneurysm'],[],False,[],[],[],[],neurological
+102,buttock pain from pimple,[],[],False,[],['elevated blood sugars'],['incision and drainage'],['buttock pain'],infectious
+103,left flank pain,[],[],False,[],[],[],"['left flank pain', 'nausea', 'vomiting']",genitourinary
+104,,[],[],False,[],[],[],[],unsure
+105,exposure to ant bait,[],[],False,[],[],[],[],toxicology
+106,dizziness,['sister dizzy'],[],False,[],[],[],['dizziness'],neurological
+107,,[],[],False,[],[],[],[],oncology
+108,,[],[],False,[],[],[],[],cardiovascular
+109,,[],[],False,[],[],[],[],unsure
+110,followup,[],[],False,[],['chronic GVHD'],['transplant'],"['hematochezia', 'fatigue']",gastrointestinal
+111,,[],[],False,[],[],[],[],unsure
+112,bunion deformity with progressive pain,[],['antiinflammatories'],False,[],[],[],['foot pain'],musculoskeletal
+113,Hypertension,[],[],False,[],['hypertension'],[],[],cardiovascular
+114,left-sided weakness,[],[],False,[],[],[],"['left arm weakness', 'left-sided weakness', 'balance difficulty', 'walking difficulty']",neurological
+115,,[],['Zyprexa'],False,[],"['obesity', 'diabetes mellitus', 'chronic bronchitis']",[],[],respiratory
+116,,[],[],False,[],[],[],[],unsure
+117,shoulder pain,[],['antiinflammatories'],False,[],[],[],['shoulder pain'],musculoskeletal
+118,,[],[],False,[],[],"['appendectomy', 'hysterectomy']",[],unsure
+119,right shoulder pain,[],[],False,[],"['type II diabetes mellitus', 'hypertension']",['benign breast biopsy'],['right shoulder pain'],musculoskeletal
+120,,[],[],False,[],[],[],[],unsure
+121,,[],[],False,[],"['hypertension', 'hyperlipidemia', 'BPH', 'elevated PSA level']","['back surgery', 'knee surgeries', 'coronary artery bypass surgery', 'angioplasty']","['shortness of breath', 'fatigue', 'tiredness', 'pain']",cardiovascular
+122,,[],['insulin'],False,[],"['diabetes', 'prostate cancer']",[],[],endocrine
+123,reflux disease,[],[],False,['depression'],"['depression', 'reflux disease']",[],['intense burning in throat after eating'],gastrointestinal
+124,,[],[],False,[],[],[],[],gastrointestinal
+125,cancer recurrence,[],[],False,['depression'],"['cancer', 'depression']",[],"['sadness', 'depressed mood']",oncology
+126,diarrhea,[],[],False,[],[],[],"['diarrhea', 'lethargy', 'abdominal pain']",gastrointestinal
+127,,[],[],False,[],[],[],[],unsure
+128,,[],[],True,[],[],[],[],unsure
+129,,[],[],False,[],[],[],[],unsure
+130,liver cirrhosis,[],[],False,[],"['liver cirrhosis', 'diabetes suspected', 'intracranial hemorrhage', 'right sided hemiparesis']",[],"['thirst', 'numbness', 'tingling']",gastrointestinal
+131,headache,[],[],False,[],[],[],"['headache', 'pressure', 'throbbing', 'nausea']",neurological
+132,,[],[],False,[],[],[],[],unsure
+133,Acute on chronic COPD exacerbation,[],['oxygen'],False,[],"['COPD', 'pneumonia']",[],"['coughing', 'shortness of breath', 'sleepiness', 'fatigue', 'confusion', 'weakness', 'instability', 'fall']",respiratory
+134,,[],[],False,[],"['asthma', 'sinus issues', 'hives', 'psoriasis']",[],[],respiratory
+135,,[],[],True,[],[],[],[],unsure
+136,,[],[],True,[],[],[],[],unsure
+137,,[],[],False,[],[],[],[],unsure
+138,,[],[],False,[],"['smoking history', 'cocaine use']",[],[],toxicology
+139,,[],[],False,[],"['hypertension', 'hyperlipidemia', 'congestive heart failure']",['heart catheterization'],"['palpitations', 'irregular rhythm', 'chest pain', 'diaphoresis']",cardiovascular
+140,post-CyberKnife treatment follow-up for lung cancer,[],[],True,[],['non small cell lung cancer stage IA'],[],"['nausea', 'pain with deep inspiration', 'dysphagia']",oncology
+141,motor vehicle collision with abdominal and neck pain,[],"['oral birth control', 'Accutane']",False,[],[],[],"['mild left neck pain', 'lower abdominal pain', 'pelvic bone pain', 'loss of consciousness']",injury/trauma
+142,,[],[],False,[],[],[],[],unsure
+143,,[],[],False,[],[],[],[],unsure
+144,,['sister had yeast infections'],[],True,[],[],[],[],unsure
+145,discomfort on right side,[],['insulin'],False,[],"['stroke', 'diabetes', 'history of heavy tobacco and alcohol usage']",[],['discomfort on right side'],neurological
+146,follow-up for hypertension and depression,[],['Lexapro'],False,['depression'],"['hypertension', 'osteoporosis', 'osteoarthritis', 'depression']",[],"['right arm symptoms resolved', 'subtle tremor']",psychiatric
+147,,[],[],False,[],[],[],[],unsure
+148,psychotic episodes,[],"['clozaril', 'other antipsychotics']",False,['psychosis'],['psychosis'],[],['psychotic episodes'],psychiatric
+149,,['lazy eye'],[],False,[],[],[],[],neurological
+150,,[],[],False,[],[],"['L5-S1 lumbar laminectomy', 'exploratory laparotomy', 'tonsillectomy', 'adenoidectomy', 'anal fissure surgery']",[],unsure
+151,,[],[],False,[],[],[],[],musculoskeletal
+152,,[],[],True,[],[],[],[],unsure
+153,,[],[],True,[],[],[],[],unsure
+154,,[],[],False,[],[],[],[],unsure
+155,,[],"['thyroid meds', 'Lipitor']",False,[],[],[],[],unsure
+156,,[],[],False,[],[],[],[],unsure
+157,thoracic kyphosis,"['maternal aunt kyphosis', 'grandfather kyphosis']",[],False,[],['thoracic kyphosis'],[],['rounded back posture'],musculoskeletal
+158,,[],[],False,[],[],[],[],unsure
+159,,[],[],True,[],[],[],[],unsure
+160,,[],[],False,[],[],[],[],unsure
+161,dog bite to right lower leg,[],[],False,[],[],[],"['puncture wound', 'flap injury to right lower leg', 'bite']",injury/trauma
+162,,[],[],False,[],[],[],[],unsure
+163,,[],[],False,[],[],[],[],unsure
+164,,[],[],False,[],[],[],['tired'],unsure
+165,possible borax ingestion,[],[],False,['worry'],[],[],[],toxicology
+166,,[],[],False,[],[],"['lower extremity vein stripping', 'tonsillectomy', 'adenoidectomy']",[],unsure
+167,,[],[],False,[],[],[],[],unsure
+168,,[],[],False,[],[],[],[],unsure
+169,enlarged thyroid,[],[],False,[],['thyroid goiter'],[],"['difficulty swallowing', 'throat tightness']",endocrine
+170,,[],[],True,[],[],[],[],unsure
+171,,"['mother had cancer', 'father had heart attack']",[],False,[],[],[],[],unsure
+172,left shoulder pain and C6 radiculopathy,[],[],False,[],"['rotator cuff tear', 'C6 radiculopathy']",[],"['left shoulder pain', 'pain radiating down left arm to wrist', 'mild left upper extremity weakness']",musculoskeletal
+173,,[],[],False,[],[],[],[],unsure
+174,,[],[],False,[],[],[],[],unsure
+175,sinus infection with cough,[],[],True,[],[],[],"['sinusitis', 'cough']",infectious
+176,,[],[],False,[],[],[],"['infection', 'blood clotting issues', 'sepsis']",infectious
+177,,[],[],True,[],[],[],[],unsure
+178,short term memory loss,[],[],False,['stress'],[],[],"['memory loss', 'trouble absorbing information']",neurological
+179,left flank pain,[],[],False,[],[],[],['left flank pain'],genitourinary
+180,,[],[],False,[],[],[],[],unsure
+181,type 2 diabetes,[],[],False,[],"['type 2 diabetes', 'high cholesterol']",[],[],endocrine
+182,right slipped capital femoral epiphysis,[],[],False,[],['right slipped capital femoral epiphysis'],['in situ pinning'],[],musculoskeletal
+183,severe lower back pain,[],[],False,[],[],[],"['severe lower back pain', 'sleepiness', 'sluggishness']",musculoskeletal
+184,generalized weakness and malaise,[],[],False,[],['sinusitis'],[],"['generalized weakness', 'malaise', 'orthostatic dizziness', 'intermittent holocranial headaches', 'weight loss']",neurological
+185,,[],[],False,[],[],[],[],dermatological
+186,rash and itching on right arm,[],[],False,[],[],[],"['pruritus', 'rash', 'itching', 'paresthesias', 'sensory loss', 'pain right scapular region', 'unsteady gait', 'difficulty ambulating']",neurological
+187,,[],[],False,[],[],[],[],unsure
+188,,[],['coumadin'],False,[],"['atrial fibrillation', ""parkinson's disease""]",[],['tremor'],neurological
+189,dry cough and difficulty breathing,[],[],False,[],[],[],"['dry cough', 'difficulty breathing']",respiratory
+190,diarrhea,[],[],False,[],[],[],"['diarrhea', 'decreased appetite']",gastrointestinal
+191,,[],[],False,[],[],[],[],unsure
+192,,[],[],False,[],['substance use disorder'],[],"['cocaine use', 'alcohol use']",toxicology
+193,blurred vision and visual acuity difficulties,[],[],False,[],['craniopharyngioma'],['transsphenoidal resection of tumor'],"['blurred vision', 'visual acuity difficulties', 'headaches', 'tinnitus']",neurological
+194,post-surgery follow-up,[],[],False,[],['slipped capital femoral epiphysis'],['bilateral SCFE repair'],[],musculoskeletal
+195,,[],[],False,[],[],[],[],unsure
+196,,[],[],False,[],[],[],[],unsure
+197,anxiety and nervousness,[],[],True,"['anxiety', 'nervousness']",[],[],"['anxiety', 'nervousness']",psychiatric
+198,,[],[],False,[],"['tobacco abuse', 'illicit drug abuse']",[],[],unsure
+199,persistent buttock and lower back pain,[],[],False,['mood affected'],['low back pain'],['lumbar disc replacement'],"['buttock pain', 'leg pain', 'lower back pain', 'spasm', 'pain', 'sleep disturbance']",musculoskeletal
+200,,[],[],False,[],[],[],[],unsure
+201,,[],['Abilify'],False,[],[],[],[],psychiatric
+202,upper respiratory infection,[],[],False,[],[],[],['upper respiratory infection'],infectious
+203,,[],[],False,[],"['pulmonary fibrosis', 'atrial fibrillation']",['bilateral lung transplant'],['irregular heart rhythm'],respiratory
+204,foreign body in left fifth fingernail,[],[],False,[],[],[],['pain'],injury/trauma
+205,,[],[],False,[],[],[],[],musculoskeletal
+206,,[],[],False,[],[],[],['allergy'],unsure
+207,,[],[],True,[],[],[],[],unsure
+208,calcaneal valgus deformity with pain,[],[],False,[],[],['bilateral feet correction'],"['heel pain', 'calcaneal valgus deformity']",musculoskeletal
+209,refracture of right forearm,[],[],False,[],['fracture of right forearm'],[],"['arm pain', 'complete fracture of both bones of right forearm']",injury/trauma
+210,dark spot on leg,[],[],False,[],[],"['back surgery', 'appendectomy']",['dark spot on leg'],dermatological
+211,,[],[],True,[],[],['chest port placement'],[],unsure
+212,,[],[],False,[],[],[],[],unsure
+213,,[],['birth control pills'],False,[],"['chickenpox', 'measles']",[],[],obstetrics/gynecology
+214,"nausea, vomiting, fever, hemoptysis, chest pain",[],[],False,[],[],[],"['nausea', 'vomiting', 'fever', 'hemoptysis', 'pleuritic chest pain']",respiratory
+215,hypothermia,[],[],False,[],[],[],['hypothermia'],unsure
+216,,[],[],True,[],['tobacco use'],[],[],unsure
+217,stomatitis,[],['methotrexate'],False,[],[],[],"['canker sores', 'pain in mouth']",infectious
+218,,[],[],False,[],[],[],[],unsure
+219,,[],[],False,[],[],[],[],injury/trauma
+220,,[],[],False,[],[],[],[],unsure
+221,,[],[],True,[],[],[],[],psychiatric
+222,possible ant bait exposure,[],[],False,[],[],[],[],toxicology
+223,follow-up for uterine papillary serous carcinoma chemotherapy,[],[],False,[],['uterine papillary serous carcinoma'],[],['numbness in right upper extremity'],oncology
+224,difficulty swallowing,[],[],False,[],['thyroid goiter'],[],['difficulty swallowing'],endocrine
+225,,"['coronary artery disease', 'high blood pressure']",[],False,[],"['coronary artery disease', 'hypertension']",[],[],cardiovascular
+226,fall with head injury and recurrent acoustic neuroma,[],[],False,[],"['recurrent acoustic neuroma', 'whiplash', 'concussion', 'mild disc bulge at C4-C5']",['neurosurgical treatment for acoustic neuroma'],"['stunned', 'spine pain', 'general aches and pains']",neurological
+227,,[],[],False,[],[],[],[],unsure
+228,,[],['anticoagulants'],False,[],"['atrial fibrillation', 'osteoarthritis of the knees', 'retinal tear']",[],[],cardiovascular
+229,,[],[],False,[],[],[],[],unsure
+230,,"['prostate cancer', ""Hodgkin's disease"", 'melanoma']",[],False,[],[],[],[],oncology
+231,,[],[],True,[],[],[],[],unsure
+232,,[],[],False,[],[],[],[],unsure
+233,needle stick injury with hepatitis C exposure,[],[],True,['fear'],[],[],['needle stick injury'],infectious
+234,,[],[],False,[],[],[],[],infectious
+235,,[],[],False,[],['myocardial infarction'],"['tonsillectomy', 'coronary artery bypass grafting']",[],cardiovascular
+236,,[],[],False,[],[],[],[],unsure
+237,,[],[],True,[],[],[],[],unsure
+238,,[],[],False,[],[],[],[],unsure
+239,"bilateral knee pain, left worse",[],"['narcotics', 'antiinflammatories']",False,[],"['degenerative joint disease knees', 'spinal stenosis']","['knee arthroscopy', 'spinal decompression']","['knee pain', 'limited walking', 'difficulty with stairs']",musculoskeletal
+240,,[],[],False,[],[],[],['tobacco use'],unsure
+241,cough and multiple pains,[],[],False,[],['cough'],[],"['sore mouth', 'funny feeling in eyes', 'back pain', 'right shoulder pain', 'neck pain', 'cough']",respiratory
+242,,[],[],True,[],[],[],[],unsure
+243,,[],[],False,[],[],[],[],unsure
+244,left-sided weakness after brain tumor removal,[],[],False,[],['brain tumor'],"['brain tumor removal', 'second brain surgery due to swelling']",['left-sided weakness'],neurological
+245,pain,[],['Nexium'],False,[],[],[],['pain'],unsure
+246,hemorrhoids and constipation,[],"['Cymbalta', 'Tylenol']",False,['depression'],"['hemorrhoids', 'constipation', 'depression', 'diabetes']",[],"['constipation', 'cough']",gastrointestinal
+247,urinary frequency and worsening balance,[],[],False,[],['hydrocephalus'],['anterior cervical corpectomy and fusion C3-C5'],"['urinary frequency', 'urinary leakage with cough', 'head fullness', 'ringing in ears', 'worsening balance', 'buttock pain', 'pain radiating down legs', 'constant tingling radiculopathy', 'leg stiffness', 'slow walking']",neurological
+248,colon cancer follow-up,[],['insulin pump'],False,[],"['colon cancer', 'diabetes']",['J-tube placement'],['swellings'],oncology
+249,,[],"['metoprolol', 'premarin']",False,[],['atrial fibrillation'],[],[],cardiovascular
+250,diabetes,[],['insulin'],False,[],['diabetes type 2'],[],[],endocrine
+251,,[],[],False,[],[],[],[],musculoskeletal
+252,nausea,[],[],False,[],[],[],['nausea'],gastrointestinal
+253,cough,[],[],False,[],[],[],['cough'],respiratory
+254,recurrent pneumonia,[],[],False,[],"['pneumonia', 'urinary retention', 'prostate enlargement']","['appendectomy', 'ankle resection']",['weight loss'],respiratory
+255,,[],[],False,[],"['nausea', 'vomiting']",[],[],unsure
+256,,[],[],False,[],[],[],[],unsure
+257,,[],['oral analgesics (past)'],False,[],['phimosis'],['circumcision'],[],genitourinary
+258,tongue swelling,[],[],False,[],[],[],['tongue swelling'],unsure
+259,right foot ulcer,[],[],False,[],[],[],['foot ulcer'],infectious
+260,,[],[],False,[],[],[],[],unsure
+261,,[],[],False,[],[],[],[],unsure
+262,UTI,[],"['pravachol', 'dilantin', 'toprol', 'macrobid']",False,[],"['seizures', 'high blood pressure', 'high cholesterol']",[],['UTI'],infectious
+263,,[],[],False,[],[],[],[],unsure
+264,jaw pain,[],[],False,[],[],[],['jaw pain'],unsure
+265,,[],[],False,[],[],[],[],unsure
+266,,[],[],False,[],[],[],[],endocrine
+267,,[],['omeprazole'],False,[],"['gastroesophageal reflux disease', 'mitral valve prolapse', 'stage IIIC papillary serous adenocarcinoma of the ovaries']",['ovarian cancer surgery'],['heart murmur'],oncology
+268,worsening asthma,[],"['inhaler daily', 'Allegra as needed']",False,"['irritability', 'impatience']","['asthma', 'urinary tract infection']",[],"['worsening asthma', 'increased allergies', 'irritability before menses', 'impatience before menses', 'spotting after menses']",respiratory
+269,,"['diabetes', 'heart attack', 'neonatal death']",[],False,[],[],[],[],unsure
+270,chronic sinusitis,[],[],False,[],"['chronic sinusitis', 'allergy symptoms']",[],"['facial discomfort', 'nasal congestion', 'eye pain', 'postnasal drip', 'balance problems', 'hearing loss', 'ear popping', 'fullness', 'dizziness']",respiratory
+271,,[],[],False,[],[],[],[],unsure
+272,,[],[],False,[],['end stage renal disease'],"['PermCath insertion x3', 'peritoneal dialysis']",[],genitourinary
+273,pain in knees post bilateral knee replacement,[],[],False,[],[],['bilateral knee replacement'],['knee pain'],musculoskeletal
+274,,[],[],False,[],[],[],['condition improving'],unsure
+275,severe tummy pain,[],[],False,[],['autism'],[],"['tummy pain', 'vomiting', 'refusing to eat or drink', 'diarrhea']",gastrointestinal
+276,,[],[],True,['grief'],[],[],[],psychiatric
+277,,[],['albuterol'],False,[],['asthma'],[],[],respiratory
+278,,[],[],False,[],[],[],[],unsure
+279,,[],['Micronase'],False,[],[],[],[],infectious
+280,,[],[],False,[],[],[],[],unsure
+281,headaches,[],[],False,"['stress', 'insomnia']",[],[],"['headache', 'sinus congestion', 'photophobia']",neurological
+282,,[],[],False,[],[],[],[],unsure
+283,abdominal pain,[],[],False,[],[],[],"['abdominal pain', 'nausea', 'vomiting']",gastrointestinal
+284,,[],[],False,[],[],[],[],neurological
+285,,[],[],False,[],[],"['ACL reconstruction', 'ACL revision surgery', 'arm surgery']",[],musculoskeletal
+286,,[],[],True,[],[],[],[],unsure
+287,,[],[],False,[],"['allergies', 'thyroid problems']",[],[],unsure
+288,,[],[],False,[],[],[],[],unsure
+289,recurrent urinary tract infections,['hereditary diabetes'],['thyroid medication'],False,[],"['chronic incontinence', 'bladder atony', 'right-sided cerebrovascular accident', 'atrial fibrillation', 'type 2 diabetes', 'neuropathy', 'hypothyroidism']","['cholecystectomy', 'colon cancer surgery', 'pacemaker placement']","['urine infections', 'pain on right side']",genitourinary
+290,,[],[],False,[],[],[],[],unsure
+291,high blood pressure,[],[],False,[],[],[],['high blood pressure'],cardiovascular
+292,,"['cancer', 'heart disease', 'osteoarthritis']",[],False,[],[],[],[],unsure
+293,painful ulcer on right hip,[],[],True,[],[],[],['painful ulcer on right hip'],dermatological
+294,blister on head,['mother had MRSA on buttocks'],[],False,[],[],[],"['blister near umbilicus', 'blister on left temporal area']",infectious
+295,migraine headache,[],[],False,[],[],[],"['headache', 'pain', 'discomfort']",neurological
+296,ADHD medication follow-up,[],['Adderall'],False,[],['ADHD'],[],"['appetite loss in morning', 'medication delay onset', 'medication wears off early evening']",psychiatric
+297,back pain with radiating leg pain,[],"['muscle relaxers', 'lidocaine patch', 'opioids']",False,[],['back pain'],[],"['sharp lower back pain', 'radiating pain down right leg', 'radiating pain down left leg', 'buttock spasm', 'sleep disturbance due to pain']",musculoskeletal
+298,,"['stroke', 'coronary artery disease', 'heart attack', 'cancer', 'hypertension']",[],False,[],[],[],[],unsure
+299,,[],[],False,[],[],[],[],unsure
+300,follow-up hypothyroidism and onychomycosis,[],"['Levothroid', 'medicated eye drops']",True,[],"['hypothyroidism', 'Down syndrome']",[],[],endocrine
+301,,[],[],False,[],[],[],[],unsure
+302,,[],[],False,[],[],[],[],unsure
+303,severe nausea and vomiting,[],[],False,[],[],[],"['nausea', 'vomiting']",gastrointestinal
+304,,[],[],False,[],[],[],[],unsure
+305,diarrhea and vomiting,['brother had similar symptoms'],[],False,[],[],[],"['emesis', 'diarrhea', 'fever']",gastrointestinal
+306,cough and right abdominal pain,[],[],False,[],"['hypertension', 'macular degeneration', 'pneumonia']",[],"['generalized body aches', 'cough', 'nausea', 'right-sided abdominal pain', 'dry cough', 'subjective fever', 'chills']",respiratory
+307,left knee pain,[],[],False,[],[],[],"['left knee pain', 'pain worse with physical therapy']",musculoskeletal
+308,abdominal pain,[],[],False,[],[],[],['abdominal pain'],gastrointestinal
+309,right neck and shoulder pain and stiffness,[],['naprosyn'],False,[],[],[],"['right neck pain', 'right shoulder stiffness', 'numbness in right first and second fingers', 'right upper extremity pain', 'numbness in both lower extremities', 'coccygeal pain', 'pain worsening at night', 'electric shock sensation down spine']",neurological
+310,pregnancy follow-up,[],[],True,[],[],[],[],obstetrics/gynecology
+311,,[],[],False,[],[],[],[],unsure
+312,"follow up diabetes, hypercholesterolemia, sinusitis",[],[],False,[],"['diabetes mellitus', 'hypercholesterolemia', 'sinusitis']",[],"['headache', 'stuffy nose']",endocrine
+313,"backache, stomachache, dysuria",[],[],False,[],"['kidney stones', 'urinary tract infection']",[],"['backache', 'stomachache', 'dysuria', 'fever', 'cough']",genitourinary
+314,,[],[],False,[],"['lumbar discitis', 'pulmonary embolus']",['debridement and instrumentation'],[],musculoskeletal
+315,,[],[],False,[],"['hypertension', 'elevated triglycerides']",[],[],endocrine
+316,second opinion for cataract extraction,[],[],False,['nervous'],['neurovascular age-related macular degeneration'],"['laser treatment macula right eye', 'laser treatment macula left eye']",[],ophthalmology
+317,,[],[],False,[],[],[],[],unsure
+318,,[],[],False,[],[],[],[],unsure
+319,,[],[],False,[],"['alcoholism', 'nicotine dependence', 'illicit drug use']",[],[],psychiatric
+320,,['maternal grandfather stroke'],[],False,[],[],[],[],unsure
+321,,[],[],False,[],"['anemia', 'high cholesterol', 'hypothyroidism']",[],[],unsure
+322,progressive loss of color vision and blurred vision,[],[],False,[],[],[],"['loss of color vision', 'blurred vision', 'central scotoma']",neurological
+323,trouble breathing,[],[],False,[],[],[],"['trouble breathing', 'chest tightness']",respiratory
+324,"worsening bilateral hand discomfort, left worse",[],['Elavil'],False,[],['systemic lupus erythematosus'],[],"['hand discomfort', 'dry cough', 'subjective fever']",infectious
+325,,[],[],False,[],[],[],[],unsure
+326,,"['mother had anxiety', 'mother had stress disorder']",[],False,[],[],[],[],psychiatric
+327,,"['father hypertension', 'mother hypertension', 'father ET', 'mother ET', 'maternal cousin lupus']",[],False,[],[],[],[],unsure
+328,,[],['flonase'],False,[],[],[],[],respiratory
+329,fatigue,[],[],False,[],"['thyroid issues', 'sleep apnea']",[],['fatigue'],endocrine
+330,syncope,[],[],False,[],['vasovagal syncope'],[],['fainting episode'],cardiovascular
+331,swelling in legs,[],[],False,[],[],[],['swelling in legs'],cardiovascular
+332,left middle finger and wrist numbness and pain,[],[],False,[],[],[],"['numbness', 'pain']",musculoskeletal
+333,,[],[],False,[],[],[],[],unsure
+334,breast examination,[],[],True,['stress'],[],[],[],oncology
+335,,[],[],True,[],[],[],[],unsure
+336,muscle sprain upper back,[],['over-the-counter pain medication'],True,[],[],[],"['muscle sprain upper back', 'trouble sleeping', 'pain']",musculoskeletal
+337,irregular periods,"['total hysterectomy (mother)', 'total hysterectomy (maternal aunt)']",['SBE prophylaxis'],False,[],['abnormal heart valve'],[],['irregular periods'],obstetrics/gynecology
+338,right leg pain,[],['Vicodin'],False,[],['acne'],[],"['right leg pain', 'vomiting', 'constipation', 'rash at bandage site']",injury/trauma
+339,,[],[],False,[],[],[],[],unsure
+340,,[],[],True,[],['remote tobacco use'],[],[],unsure
+341,,[],[],False,[],['mild scoliosis'],[],['spine curve'],musculoskeletal
+342,chronic diarrhea,[],[],False,[],"['chronic diarrhea', 'chronic obstructive pulmonary disease']",[],['chronic diarrhea'],gastrointestinal
+343,atrial fibrillation and dizziness,[],[],False,[],['atrial fibrillation'],[],['dizziness'],cardiovascular
+344,,[],[],False,[],[],[],[],unsure
+345,,[],[],True,[],[],[],[],unsure
+346,,[],[],False,[],[],[],[],unsure
+347,,"[""Alzheimer's disease"", 'stroke']",[],True,[],[],[],[],unsure
+348,,[],[],True,[],[],[],[],unsure
+349,sinusitis,"['mother benign breast lump', 'paternal grandmother breast cancer']",[],False,[],['sinusitis'],[],[],infectious
+350,,[],[],False,[],"['former smoker', 'history of cocaine use', 'history of alcohol abuse']",[],[],unsure
+351,,"['prostate cancer', 'alcoholism', 'bone cancer', 'throat cancer', 'cancer', 'hypertension', 'nervous condition', 'kidney disease', 'lung disease', 'depression']",[],False,['depression'],[],[],[],unsure
+352,,[],[],True,[],[],[],[],unsure
+353,vomiting and diarrhea,[],[],False,[],[],[],"['vomiting', 'diarrhea', 'belly pain', 'nausea']",gastrointestinal
+354,,[],[],True,[],[],[],[],unsure
+355,congestion and fever,[],['tylenol'],False,[],[],[],"['congestion', 'fever', 'mild breathing problems while feeding', 'decreased intake', 'fussiness', 'decreased urine output']",respiratory
+356,,[],"['benicar', 'multivitamin', 'glucosamine', 'vitamin b complex', 'vitamin e', 'aspirin']",False,[],[],[],[],unsure
+357,,[],[],False,[],[],[],[],unsure
+358,abdominal contusion and abrasion,[],['tylenol'],False,[],[],[],"['pain', 'contusion', 'abrasion']",injury/trauma
+359,,"['lung cancer', 'liver cancer', 'prostate cancer', 'dementing illness']",[],False,[],[],[],[],oncology
+360,,[],[],False,[],"['diabetes', 'hypertension', 'elevated lipids', 'diabetic retinopathy', 'stroke']",[],[],cardiovascular
+361,,[],[],False,['alcohol abuse'],['alcohol abuse'],[],['obtunded'],psychiatric
+362,,[],[],False,[],['coronary artery disease'],[],[],cardiovascular
+363,moderate to severe sleep apnea,[],[],False,[],['sleep apnea'],[],"[""can't sleep""]",respiratory
+364,,[],[],True,[],[],[],[],unsure
+365,postpartum evaluation,[],[],False,[],['seasonal allergies'],[],"['pain with bowel movement', 'bright red bleeding with bowel movement', 'itchy watery eyes', 'runny nose', 'sneezing', 'ear pressure']",obstetrics/gynecology
+366,,['brother had prostate cancer'],[],False,[],[],[],[],unsure
+367,back pain after fall,[],[],False,[],[],[],['back pain'],injury/trauma
+368,,[],[],False,[],['C. difficile infection'],[],[],infectious
+369,,[],[],False,[],[],[],[],respiratory
+370,,[],"['Trizivir', 'Ibuprofen']",False,[],[],[],['body aches'],infectious
+371,left shoulder pain after fall,[],['Advil'],False,[],[],[],"['left shoulder pain', 'right shoulder pain']",injury/trauma
+372,emotional outbursts,[],[],False,[],"[""Down's syndrome"", 'hypothyroidism', 'onychomycosis']",[],"['emotional outbursts', 'weight gain', 'fatigue', 'discolored toenail']",endocrine
+373,ear pinning follow-up,[],[],False,[],[],['bilateral ear pinning'],[],unsure
+374,,[],[],False,[],[],[],[],unsure
+375,,"['father had hypertension', 'mother had skin cancer']",[],False,[],"['hypertension', 'multiple malignancies']",[],[],oncology
+376,hypertension follow-up,[],[],True,[],['hypertension'],[],[],cardiovascular
+377,refill Xanax and smoking cessation help,[],['xanax'],False,['anxiety'],['mesothelioma'],[],"['chronic pain', 'pain when eating']",oncology
+378,,[],[],False,[],[],[],[],unsure
+379,"possible adult hydrocephalus, walking imbalance",[],[],True,['cognitive slowing'],['vertigo'],[],"['imbalance', 'broad base gait', 'stooped posture', 'frequent falls', 'slowed thinking', 'difficulty with words']",neurological
+380,refractory hypertension,[],[],False,[],['hypertension'],[],[],cardiovascular
+381,,[],[],False,[],[],[],[],unsure
+382,followup diabetes mellitus type 1,[],[],True,[],['diabetes mellitus type 1'],[],[],endocrine
+383,,[],[],True,[],[],[],[],unsure
+384,headaches and facial pressure,[],['Benadryl'],False,[],['asthma'],[],"['headache', 'facial pressure', 'sniffles', 'sore throat', 'cough', 'rash', 'itching']",infectious
+385,,[],[],False,[],[],"['partial oophorectomy', 'appendectomy', 'abdominoplasty']",[],unsure
+386,laceration with numbness and tingling in right ring finger,[],[],False,[],[],[],"['laceration', 'numbness', 'tingling']",injury/trauma
+387,chest and body pain,[],[],False,[],[],[],"['chest pain', 'body pain', 'upper right abdominal pain']",unsure
+388,,[],[],False,[],[],[],['foot pain'],injury/trauma
+389,,"['breast carcinoma in sister', 'gastric carcinoma in father']",[],False,[],[],[],[],oncology
+390,,[],[],False,[],[],[],[],unsure
+391,mood swings and tearfulness,[],['Wellbutrin'],False,"['mood swings', 'tearfulness', 'difficulty concentrating', 'insomnia']",['obsessive-compulsive type disorder'],['total abdominal hysterectomy with bilateral salpingo-oophorectomy'],"['mood swings', 'tearfulness', 'difficulty concentrating', 'insomnia']",psychiatric
+392,,[],[],False,[],"['hypertension', 'dyslipidemia']",[],[],cardiovascular
+393,allergies and related symptoms,[],[],False,[],"['allergies', 'gastroesophageal reflux disease', 'asthma']",[],"['diminished taste', 'dry mouth', 'acid reflux', 'GI issues', 'asthma', 'reaction to aerosols']",allergic/infectious
+394,,"['mother heart problems', 'mother alcoholism', 'father leukemia', 'uncle leukemia']",[],False,[],[],[],[],unsure
+395,intermittent constipation,[],[],False,[],[],[],"['constipation', 'bloating', 'vomiting', 'twisty stomach pain']",gastrointestinal
+396,,[],"['Diovan', 'estradiol', 'Norvasc', 'Wellbutrin SR inhaler', 'home oxygen']",False,[],[],[],[],unsure
+397,,[],[],True,[],['former smoker'],[],[],unsure
+398,,[],[],False,[],['right hip fracture'],"['appendectomy', 'total abdominal hysterectomy', 'bilateral salpingo oophorectomy']",[],unsure
+399,"progressive weakness of arms and legs, dysphagia",[],[],False,[],['hemangioblastoma'],"['C6-T1 laminectomy', 'suboccipital craniotomy']","['right arm weakness', 'neck pain', 'hand atrophy', 'hand contractures', 'left sided burning sensation', 'left sided paresthesia', 'upper extremity weakness', 'ataxia', 'nausea', 'vomiting', 'hyperreflexia', 'proximal weakness of all four extremities', 'dysphagia', 'difficulty putting on shirt', 'difficulty raising arms', 'difficulty with manual dexterity', 'difficulty going down stairs']",neurological
+400,,[],[],False,[],[],[],[],unsure
+401,left elbow pain,[],[],False,[],[],[],['left elbow pain'],injury/trauma
+402,,[],[],False,[],['chronic marijuana use'],[],['smoking'],respiratory
+403,,[],[],False,[],[],[],[],unsure
+404,20 weeks pregnant,[],[],False,[],[],[],[],obstetrics/gynecology
+405,,[],[],True,[],[],[],[],unsure
+406,,[],[],False,[],"['history of smoking', 'past alcohol use', 'past prescription medication abuse']",[],[],unsure
+407,,[],[],False,[],[],[],[],unsure
+408,chronic cough,[],[],False,[],[],[],['chronic cough'],respiratory
+409,,[],[],True,[],[],[],[],unsure
+410,,[],[],False,[],[],[],[],unsure
+411,sexual dysfunction,[],['Cialis'],False,[],[],[],"['decreased desire', 'difficulty maintaining erection']",genitourinary
+412,nausea and abdominal pain,[],[],False,[],[],[],"['nausea', 'abdominal pain']",gastrointestinal
+413,coffee-ground emesis,[],['Nexium 40 mg daily'],False,[],['severe gastritis'],[],"['coffee-ground emesis', 'vomiting']",gastrointestinal
+414,weakness and fatigue,[],[],False,[],[],[],"['weakness', 'fatigue', 'weight loss', 'loss of appetite']",unsure
+415,,[],[],False,[],[],[],[],unsure
+416,bilateral knee pain,[],[],False,[],[],[],"['clicking noises', 'stiffness', 'knee pain']",musculoskeletal
+417,,[],[],True,[],[],[],[],unsure
+418,,"['cervical cancer', 'heart disease', 'heart failure', 'COPD', 'dementia', 'diabetes']",[],False,[],"['cervical cancer', 'heart disease', 'COPD', 'dementia', 'diabetes', 'CHF']",[],[],unsure
+419,,[],[],True,[],"['dementia', 'hypertension', 'urinary incontinence', 'chronic back pain', 'degenerative joint disease of the spine']",[],"['urinary incontinence', 'back pain']",neurological
+420,feeling sick,[],[],True,[],[],[],['feeling sick'],unsure
+421,,[],[],True,[],[],[],[],unsure
+422,disability from work injury,[],[],True,[],[],[],[],injury/trauma
+423,neck and back pain,[],[],True,[],"['neck pain', 'back pain']",[],"['neck pain', 'back pain']",musculoskeletal
+424,,[],[],False,[],[],[],[],unsure
+425,,['renal cancer'],[],True,[],[],[],[],oncology
+426,,[],[],True,[],[],[],[],unsure
+427,,[],[],False,[],[],[],[],unsure
+428,,[],[],False,[],[],[],[],unsure
+429,upper respiratory illness with apnea,[],[],False,[],[],[],"['congestion', 'coughing', 'fever', 'apnea']",respiratory
+430,,[],[],False,[],[],[],[],genitourinary
+431,,[],[],False,[],[],[],[],unsure
+432,,['diabetes mellitus'],[],False,[],[],[],[],unsure
+433,,[],[],False,[],[],[],[],unsure
+434,,[],[],False,[],[],[],[],unsure
+435,,[],[],False,[],[],[],[],unsure
+436,,[],[],False,[],[],[],[],unsure
+437,hand eczema flare,[],"['Aristocort cream', 'Cetaphil cream', 'moisturizing cream', 'moisturizing lotion']",True,[],['eczema'],[],"['dry hands', 'hand cracks', 'burning pain']",dermatological
+438,allergic rhinitis,[],[],False,[],['allergic rhinitis'],[],[],respiratory
+439,difficulty eating solids,[],[],False,[],[],[],['difficulty eating solid food'],gastrointestinal
+440,postsurgical menopause,[],[],False,['mood swings'],['postsurgical menopause'],['ovarian surgery'],"['hot flashes', 'mood swings']",endocrine
+441,,[],[],False,[],[],[],[],gastrointestinal
+442,,[],[],True,[],[],[],[],unsure
+443,,[],[],False,[],[],[],[],unsure
+444,yearly physical,[],"['low dose aspirin', 'multivitamin']",False,[],[],[],"['difficulty with selfcare', 'lack of exercise']",unsure
+445,leg surgery consultation,[],[],False,[],[],"['eye surgery', 'cataract surgery', 'lumbar decompression']",[],musculoskeletal
+446,seizures starting at 14 years old,"['brother with nonsustained ventricular tachycardia', 'maternal grandmother with hypertension', 'maternal grandmother with diabetes']",['antiseizure medication'],False,[],[],[],['seizures'],neurological
+447,,[],[],False,[],[],[],[],unsure
+448,,[],[],False,[],[],[],[],unsure
+449,"swollen and painful right hand and left foot, urinary retention",[],[],False,[],[],[],"['swelling', 'pain', 'urinary retention', 'decreased urine output']",genitourinary
+450,,[],[],False,[],[],[],[],unsure
+451,,[],[],False,[],[],[],[],oncology
+452,,[],['Insulin'],False,[],['diabetes'],[],[],endocrine
+453,pain in the buttock,[],[],False,[],[],[],['pain in the buttock'],musculoskeletal
+454,Parkinson's Disease,[],['Sinemet'],False,[],"[""Parkinson's Disease""]",[],"['staggering gait', 'falls', 'lightheadedness', 'loss of voice', 'small handwriting', 'bradykinesia', 'weakness']",neurological
+455,bad cough,[],[],False,[],[],[],"['cough', 'congested sounds', 'decreased appetite', 'phlegm', 'bad coughing spell']",respiratory
+456,,"['father had heart attack', 'mother had type 2 diabetes']",[],False,[],[],[],[],unsure
+457,,[],[],False,[],[],[],[],unsure
+458,,[],[],False,[],[],[],[],unsure
+459,,[],"['prilosec', 'tramadol']",False,[],[],[],['back pain'],musculoskeletal
+460,,[],[],False,[],[],[],[],unsure
+461,vomiting and abdominal pain after eating raw carrots and celery,[],[],False,[],[],[],"['vomiting', 'abdominal pain']",gastrointestinal
+462,knee osteoarthrosis,[],[],False,[],['osteoarthrosis'],[],['knee pain'],musculoskeletal
+463,chronic back pain,[],[],False,[],['chronic back pain'],[],['back pain'],musculoskeletal
+464,,[],[],False,[],[],[],[],unsure
+465,"allergies, diminished taste, xerostomia, GERD, food allergies, asthma",[],[],False,[],"['allergies', 'gastroesophageal reflux disease', 'asthma']",[],"['diminished taste', 'xerostomia', 'chronic GI irritability', 'loss of taste', 'dry mouth']",respiratory
+466,,[],[],False,[],"['heroin use disorder', 'alcohol use disorder', 'smoking']",[],['cocaine use today'],toxicology
+467,,[],"['Allegra', 'Proventil']",False,[],['exercise induced asthma'],[],[],respiratory
+468,,[],[],False,[],[],[],[],unsure
+469,dyspnea on minimal exertion,[],"['methadone', 'trazodone', 'seroquel']",False,[],"['sleep disruption', 'daytime fatigue']",[],"['dyspnea', 'difficulty initiating sleep', 'frequent night awakenings', 'tossing and turning', 'morning dull headache', 'tiredness', 'snoring', 'talking in sleep', 'nocturnal cough (resolved)', 'daytime sleepiness', 'napping']",respiratory
+470,acid reflux problem,[],['coumadin'],False,[],"['gastroesophageal reflux disease', 'hypertension', 'arthritis', ""parkinson's disease"", 'transient ischemic attack', 'chronic atrial fibrillation']",[],[],gastrointestinal
+471,,[],[],False,[],[],[],[],unsure
+472,possible lower extremity cellulitis,[],[],False,[],[],[],['progressively worsening symptoms over two days'],infectious
+473,,"['diabetes', 'heart disease', 'hypertension', 'thyroid problems', 'sarcoidosis', 'possible multiple sclerosis', 'depression']",[],True,['depression'],[],[],[],unsure
+474,left knee pain,[],[],False,[],[],[],['left knee pain'],musculoskeletal
+475,,['breast cancer'],[],False,[],[],['tooth extractions'],[],unsure
+476,,[],[],False,[],[],[],[],unsure
+477,leg weakness with falls,[],[],True,[],[],[],"['leg weakness', 'falls', 'pallor', 'overall weakness', 'tiredness', 'odd fisted posture']",neurological
+478,,"['diabetes', 'high blood pressure', 'mother had stroke']",[],False,[],[],[],[],unsure
+479,,[],[],False,[],[],[],[],unsure
+480,,"['father cerebral hemorrhage', 'mother congestive heart failure', 'sister died during cardiac surgery', 'sister diabetes', 'daughter hypercholesterolemia']",[],False,[],[],[],[],cardiovascular
+481,,[],[],False,[],[],[],[],unsure
+482,,[],[],False,[],[],[],[],unsure
+483,bunion,[],[],False,[],[],[],"['bunion', 'pain']",musculoskeletal
+484,dietary consultation for diabetes during pregnancy,[],['insulin'],False,[],['gestational diabetes'],[],[],endocrine
+485,,"['kyphosis in great grandmother', 'kyphosis in second cousin']",[],False,[],[],[],[],musculoskeletal
+486,,[],[],True,[],[],[],[],unsure
+487,weight loss management,[],['phentermine'],False,[],[],[],"['weight plateau', 'weight gain']",endocrine
+488,,[],[],False,[],[],[],[],cardiovascular
+489,complications from mesothelioma,[],[],True,[],['mesothelioma'],[],[],oncology
+490,abdominal pain,[],['Micronase'],False,[],['diabetes'],[],['abdominal pain'],gastrointestinal
+491,,['coronary artery disease'],[],False,[],"['hypertension', 'diabetes mellitus', 'elevated cholesterol']",[],[],cardiovascular
+492,daytime fatigue and insomnia,[],[],False,['insomnia'],[],[],"['daytime fatigue', 'insomnia']",psychiatric
+493,fever,[],['tylenol'],False,[],[],[],['fever'],infectious
+494,,[],[],False,[],[],[],[],unsure
+495,,[],[],True,['nervous'],[],['hysterectomy'],[],obstetrics/gynecology
+496,rashes on arms,['atopy'],[],False,[],['eczema'],[],['rash'],dermatological
+497,,[],[],False,[],[],[],[],unsure
+498,syncope,[],[],False,[],[],[],"['syncope', 'possible seizure']",neurological
+499,bilateral arm pain with left hand numbness,[],['Lyrica'],False,[],[],[],"['arm pain', 'tingling', 'numbness']",neurological
+500,,[],[],False,['anxiety'],['anxiety disorder'],[],[],psychiatric
+501,left-sided chest pain,[],['advil'],False,[],[],['abdominal surgery'],['chest pain'],unsure
+502,,[],[],False,[],"['atrial fibrillation', 'hypertension', 'hyperlipidemia']",[],[],cardiovascular
+503,,[],[],False,[],[],[],[],unsure
+504,chronic prostatitis recheck,[],"['Proscar', 'Viagra']",True,[],['chronic prostatitis'],[],"['decreased libido', 'nocturia']",genitourinary
+505,,[],[],True,[],[],[],[],unsure
+506,choledocholithiasis,[],[],False,[],[],[],['inflammation of gallbladder'],gastrointestinal
+507,blood transfusion,[],[],False,[],[],[],[],unsure
+508,toe walking,[],[],False,[],[],[],"['leg tightness', 'toe walking']",musculoskeletal
+509,,[],[],False,[],[],[],[],unsure
+510,,[],[],False,[],[],[],[],psychiatric
+511,,[],[],False,[],"['hand fracture', 'tibia fracture']",[],[],injury/trauma
+512,,[],[],False,[],[],[],[],unsure
+513,heavy menses due to fibroids,[],[],False,[],[],"['appendectomy', 'C-section']",['heavy menses'],obstetrics/gynecology
+514,left posterior thigh injury,[],[],False,[],['left leg fracture'],['skin grafting'],"['hypergranulation tissue', 'drainage from graft site']",injury/trauma
+515,,[],[],False,[],[],[],[],unsure
+516,left flank pain,[],[],True,[],[],[],"['left flank pain', 'abdominal pain', 'back pain', 'nausea', 'vomiting']",genitourinary
+517,cervical spondylosis and myelopathy,[],[],False,[],"['cervical spondylosis', 'myelopathy']","['anterior cervical discectomy', '2-level corpectomy', 'spinal cord decompression and fusion']",[],neurological
+518,altered mental status,[],[],False,[],[],[],['altered mental status'],neurological
+519,,[],[],True,['stress'],[],[],[],psychiatric
+520,laparoscopic cholecystectomy,[],['insulin'],False,[],['chronic cholecystitis'],[],['high blood sugar'],gastrointestinal
+521,pain over navicular bone,[],[],False,[],"['multiple osteochondromas', 'hereditary osteochondromas']",['dissection of osteochondromas'],"['extreme pain over navicular bone', 'pain worse with shoe gear']",musculoskeletal
+522,,[],[],False,[],[],[],[],unsure
+523,,[],[],False,[],[],[],[],unsure
+524,,"['heart disease', 'alcoholism']",[],False,[],[],[],[],unsure
+525,,[],[],True,[],[],[],[],unsure
+526,mass on left foot,[],[],False,[],['history of shave biopsy'],[],['mass on left foot'],oncology
+527,,[],[],True,[],[],[],[],unsure
+528,,[],[],False,[],"['diabetes mellitus', 'hypertension', 'cholelithiasis', 'obstructive sleep apnea', 'cholecystitis']",[],['hyperglycemia'],endocrine
+529,,[],[],False,[],[],[],[],unsure
+530,,[],[],False,[],[],[],[],unsure
+531,,[],"['insulin', 'blood pressure medication']",False,['depression'],"['diabetes', 'hypercholesterolemia', ""Crohn's disease"", 'arthritis', 'hypertension', 'coronary artery disease', 'depression']","['stent placement', 'kidney stone removal']",[],gastrointestinal
+532,,[],[],False,[],[],[],[],endocrine
+533,refractory anemia,[],[],False,[],['anemia'],[],[],unsure
+534,,[],[],False,[],[],[],[],unsure
+535,dizzy spells and rash on right calf,[],[],False,[],['gestational diabetes'],[],"['headache', 'dizziness', 'vertigo', 'lightheadedness', 'rash', 'bruising', 'cough', 'chest pain', 'nausea', 'left shoulder tenderness', 'neck pain', 'myalgias']",unsure
+536,,"['mesothelioma', 'Hodgkin lymphoma']",[],False,[],[],[],[],oncology
+537,,[],[],False,[],[],[],[],unsure
+538,third suicide attempt in 2 months,[],[],True,['depression'],['depression'],[],"['tiredness', 'suicide attempt']",psychiatric
+539,,[],[],False,[],[],[],[],unsure
+540,,[],[],False,[],[],[],"['hypergranulation tissue', 'trauma to right posterior leg']",injury/trauma
+541,worsening asthma and allergy symptoms,['mother had health concerns (nagging about procrastination)'],"['inhaler', 'Allegra sometimes']",True,"['irritability', 'PMS']","['asthma', 'urinary tract infection']",[],"['worsening asthma', 'worsening allergies', 'itchiness (from Advair)', 'impatience', 'mood changes', 'shorter menses', 'spotting after cycles']",respiratory
+542,acne,[],[],False,[],[],[],['acne'],dermatological
+543,bilateral arm and leg jerks,[],[],False,['scared'],[],[],"['bilateral arm and leg jerks', 'falls asleep during breastfeeding']",neurological
+544,,"['father heart disease', 'father coronary artery disease', 'father vascular strokes', 'father dementia', 'mother dementia']",[],False,[],[],[],[],cardiovascular
+545,,[],[],False,[],[],[],[],unsure
+546,,[],[],False,[],[],[],[],unsure
+547,,[],[],False,[],[],[],[],unsure
+548,fall causing deep thigh laceration,[],[],False,[],[],[],['deep cut on thigh'],injury/trauma
+549,tooth pain,[],"['OxyContin', 'Vicodin']",False,[],['knee pain'],['multiple teeth extractions'],['tooth pain'],unsure
+550,jaw pain,[],[],False,[],[],[],['jaw pain'],musculoskeletal
+551,,[],"['citalopram', 'tramadol']",False,['depression'],['depression'],[],[],psychiatric
+552,,"['mother diabetes', 'mother hypertension', 'father diabetes', 'brother cirrhosis']",[],False,[],[],[],[],unsure
+553,,"['father heart disease', 'mother colon cancer', 'son blood clot']",[],False,[],[],['vaginal delivery'],[],cardiovascular
+554,,[],[],False,[],[],[],['smoking'],unsure
+555,,[],[],False,[],[],[],[],unsure
+556,,[],[],True,[],[],[],[],unsure
+557,IV contrast allergy,[],[],False,[],[],[],['allergic reaction'],unsure
+558,jaw pain,[],[],False,[],"['hypercholesterolemia', 'hypothyroidism']",[],['jaw pain'],musculoskeletal
+559,itchy rash on torso and arms,[],[],False,[],[],[],"['itchiness', 'rash', 'no facial swelling', 'no tongue swelling', 'no shortness of breath', 'no wheezing']",dermatological
+560,,"['migraine in brother', 'migraine in maternal grandfather']",[],False,[],[],[],[],neurological
+561,,[],[],True,[],[],[],[],respiratory
+562,,[],[],False,[],[],[],[],unsure
+563,under influence of heroin and cocaine,[],[],False,[],[],[],[],toxicology
+564,,[],[],False,[],[],['hysterectomy'],[],unsure
+565,,[],[],True,[],[],[],[],unsure
+566,episodic confusion and memory loss,[],"['aspirin', 'diphenhydramine']",False,[],['stroke'],[],"['confusion', 'memory loss']",neurological
+567,,['father had Von Hippel-Lindau disease'],[],False,[],[],[],[],oncology
+568,difficulty swallowing,[],['Doxepin'],False,"['depression', 'panic attacks']","['congestive heart failure', 'chronic renal insufficiency', 'azotemia', 'hyperglycemia', 'coronary artery disease', 'paroxysmal atrial fibrillation', 'perioperative anemia']",[],['difficulty swallowing'],cardiovascular
+569,,[],[],False,[],[],[],[],unsure
+570,chronic pain,[],[],False,[],"['hepatitis C', 'tobacco use']",[],['chronic pain'],unsure
+571,,[],[],False,[],[],[],[],unsure
+572,,[],[],True,[],[],[],[],unsure
+573,pressure ulcer on right hip,[],[],True,['frustration'],['spina bifida'],[],['pressure ulcer on right hip'],injury/trauma
+574,,[],[],False,[],[],[],[],unsure
+575,,[],[],False,[],[],[],[],unsure
+576,chest pain and breathing difficulties,[],[],False,[],[],[],"['chest pain', 'breathing difficulties']",cardiovascular
+577,,[],[],False,[],"['no neurologic conditions', 'no history of strokes']",[],[],neurological
+578,,"['father hypertension', 'father strokes', 'mother diabetes']",[],False,[],[],[],[],unsure
+579,,[],[],True,[],[],[],[],unsure
+580,lower back pain,[],['NSAID'],False,[],[],[],"['lower back pain', 'pain radiating to right leg', 'pain radiating to left leg', 'difficulty walking', 'bilateral lower extremity weakness', 'bilateral lower extremity numbness']",musculoskeletal
+581,complex open wound right lower extremity,[],[],False,[],[],[],"['open wound', 'cellulitis']",infectious
+582,chest pain,[],[],False,[],[],[],['chest pain'],cardiovascular
+583,yellow jacket wasp sting with swelling,[],[],False,[],[],[],"['swelling in right hand', 'swelling in right arm']",injury/trauma
+584,recent abortion with uncertain completion,[],[],False,[],[],['abortion'],['bleeding'],obstetrics/gynecology
+585,cracked bleeding nipples and mild discharge,[],[],False,[],[],['circumcision'],"['cracked nipples', 'bleeding nipples', 'umbilical discharge', 'penile discharge']",infectious
+586,left leg weakness,[],[],False,['fatigue'],"['hypertension', 'asthma', 'sleep apnea', 'obesity', 'hypercholesterolemia', 'deep vein thrombosis', 'abdominal adenocarcinoma']","['hysterectomy with bilateral salpingo-oophorectomy', 'colonic resection', 'breast lumpectomy']","['left leg weakness', 'falling asleep at work', 'snoring', 'forgetfulness', 'daytime sleepiness']",neurological
+587,,[],['Procrit'],False,[],['anemia'],[],[],unsure
+588,dietary consultation for gestational diabetes,[],[],False,"['fear of eating', 'anxiety']","['gestational diabetes', 'pregnancy']",[],"['fatigue', 'tiredness', 'reduced sleep']",endocrine
+589,leg pain at night,[],['Lipitor'],False,[],"['diabetes', 'high cholesterol']",[],"['leg pain', 'night sweats', 'fever', 'nausea', 'weight loss']",musculoskeletal
+590,,[],[],True,[],[],[],[],unsure
+591,,[],[],False,[],[],[],[],unsure
+592,,"['father had lung cancer', 'mother had breast cancer', 'brother had pancreatitis', 'father had glaucoma', 'brother had mental illness']",[],True,['grief'],[],[],[],psychiatric
+593,high potassium and weakness,[],[],False,[],[],[],"['weakness', 'fatigue', 'fever', 'chills', 'night sweats', 'weight loss', 'anorexia', 'nausea', 'vomiting', 'light-headedness', 'left sided upper back pain', 'dyspnea on exertion', 'left testicular swelling', 'left testicular pain', 'testicular drainage']",infectious
+594,,[],[],False,[],[],"['tubal ligation', 'removal of three milk ducts', 'breast biopsy', 'colonoscopy']",[],unsure
+595,,[],[],False,[],[],[],[],unsure
+596,allergy to molds,[],[],False,[],[],[],['allergic reaction'],unsure
+597,behavioral problems,[],"['Adderall', 'clonidine']",False,[],['attention deficit hyperactivity disorder'],[],"['loses focus quickly', 'behavioral problems']",psychiatric
+598,circumcision,[],[],False,[],[],['circumcision'],[],genitourinary
+599,redness and swelling in right foot,[],[],False,[],['diabetes mellitus'],[],"['redness', 'swelling', 'itching', 'pain', 'cellulitis']",infectious
+600,skin problems in private region,[],[],False,['flustered'],[],[],['skin problems in private region'],dermatological
+601,,[],[],True,[],[],[],[],unsure
+602,,[],[],False,[],[],[],[],unsure
+603,,[],['Zithromax'],True,[],[],[],[],infectious
+604,fever and chills,[],"['tylenol', 'advil']",False,[],[],[],"['fever', 'chills', 'shortness of breath', 'nausea', 'vomiting', 'frequency', 'urgency']",infectious
+605,,[],[],False,[],[],[],[],unsure
+606,postoperative evaluation left tibial and metatarsal fractures,[],[],False,[],"['spinal stenosis', 'lower extremity neuropathy']",['percutaneous screw fixation of Schatzker IV tibial plateau fracture'],['paresthesias in bilateral feet'],musculoskeletal
+607,,[],[],True,[],[],[],[],unsure
+608,fear of surgery,[],[],False,['fear'],[],[],[],unsure
+609,,[],[],True,[],[],[],[],unsure
+610,headaches worsening,[],[],False,[],[],[],['headaches'],neurological
+611,aches and pains in hands and elbows,[],['plaquenil'],False,[],['lupus'],[],"['aches and pains in hands and elbows', 'hair loss']",musculoskeletal
+612,,[],[],True,[],[],[],[],unsure
+613,,"['father had breast cancer', 'father had diabetes', 'sister had diabetes', 'strong family history of diabetes']",[],True,[],[],[],[],unsure
+614,,[],['antibiotics'],True,[],[],[],"['ear infections', 'chest colds']",infectious
+615,,[],[],False,[],[],[],[],unsure
+616,right ankle pain,[],[],False,[],[],[],"['right ankle pain', 'twisted right ankle']",injury/trauma
+617,,[],[],True,[],[],[],[],unsure
+618,,[],[],False,[],[],['cesarean section'],[],obstetrics/gynecology
+619,feet and hand cramps,[],['bactrim'],False,[],['HIV'],[],"['foot cramps', 'hand cramps', 'muscle contractions toes', 'calf pain', 'muscle cramps hands', 'thumb flexion cramps']",neurological
+620,recurrence of myoclonic jerking,[],['Lamictal'],False,[],[],[],"['myoclonic jerking', 'muscle twitching']",neurological
+621,,[],[],False,[],[],"['cholecystectomy', 'appendectomy', 'oophorectomy']",[],unsure
+622,,[],[],False,[],[],['undescended testicle repair'],[],unsure
+623,,[],[],False,[],[],[],[],unsure
+624,,[],[],False,[],[],[],[],unsure
+625,disseminated CMV infection,[],"['prednisone', 'methotrexate']",False,[],['polymyositis'],[],[],infectious
+626,,[],[],False,"['anxiety', 'depression']","['anxiety', 'depression']",[],[],psychiatric
+627,nonhealing right ankle ulcer,[],[],False,[],[],[],['right ankle ulcer'],dermatological
+628,,[],['Lupron'],False,[],['prostate cancer'],['left inguinal hernia repair'],[],oncology
+629,,"['father had cerebrovascular accident', 'mother died of cardiac arrest', 'four siblings had diabetes', 'one brother died of heart failure']",[],False,[],[],[],[],unsure
+630,C. diff colitis,[],[],False,[],[],[],['abdominal infection'],infectious
+631,wooden splinter under left fifth fingernail,[],[],False,[],['allergy to horse serum'],[],['wooden splinter under fingernail'],injury/trauma
+632,,[],[],False,[],[],[],[],unsure
+633,cataclysmic headache and left eye pain with vision loss,[],[],False,[],[],[],"['headache', 'left eye pain', 'vision loss', 'left eyelid drooping']",neurological
+634,med refill,[],['klonopin'],False,['panic'],[],[],"['nausea', 'headache']",psychiatric
+635,hand injury,[],[],False,[],[],[],['hand pain'],injury/trauma
+636,"motor vehicle accident with headache, neck and back pain",[],[],True,[],[],[],"['headache', 'neck pain', 'lower back pain', 'transient unconsciousness']",injury/trauma
+637,tiredness and blood in stool,[],[],False,[],[],[],"['tiredness', 'blood in stool']",gastrointestinal
+638,bilateral knee pain,[],[],False,[],['knee pain'],[],"['knee pain', 'decreased quality of life', 'difficulty with activities of daily living']",musculoskeletal
+639,abdominal pain,[],[],True,[],[],[],"['abdominal pain', 'nausea', 'vomiting', 'fever', 'altered mental status']",gastrointestinal
+640,status post removal of Ex-Fix from right knee after tibial plateau fracture,[],[],False,[],['right tibial plateau fracture'],"['open reduction internal fixation of right tibial plateau fracture', 'removal of external fixator from right knee', 'manipulation under anesthesia']","['mild drainage from pin sites', 'pain']",injury/trauma
+641,fall with atrial tachyarrhythmia,[],['Cardizem'],True,[],"['hypertension', 'severe tricuspid regurgitation', 'mild pulmonary hypertension', 'mild aortic stenosis', 'moderate mitral regurgitation']",[],"['fall', 'palpitations', 'pain after fall', 'heart pounding']",cardiovascular
+642,,[],[],False,[],[],[],[],unsure
+643,,[],['acetaminophen'],False,[],[],[],[],unsure
+644,iron deficiency anemia with blood in stool,[],[],False,[],"['iron deficiency anemia', 'lymphocytic colitis']",['polyp removal'],"['pruritus', 'chronic diarrhea', 'blood in stool']",gastrointestinal
+645,,[],[],False,[],['polymyalgia rheumatica'],"['bowel surgery', 'hysterectomy', 'rectocele repair', 'appendectomy']",[],musculoskeletal
+646,polycythemia vera with secondary myelofibrosis,[],['marijuana'],False,[],"['polycythemia vera', 'secondary myelofibrosis', 'JAK-2 positive']",[],"['severe fatigue', 'diarrhea', 'left leg swelling']",oncology
+647,,[],[],False,[],[],[],[],unsure
+648,itchy rash,[],['cortisone'],False,[],[],[],['itchy rash'],dermatological
+649,hardware removal from left lateral condyle fracture,[],[],True,[],['left lateral condyle fracture'],['screw compression'],[],injury/trauma
+650,,[],[],False,[],[],"['sternotomy', 'ICD implantation', 'aortic valve mechanical implant']",['pleural effusion'],cardiovascular
+651,dog bite to right lower leg,[],[],False,['fear'],[],[],['bite wound right lower leg'],injury/trauma
+652,gross hematuria,[],"['flomax', 'coumadin']",True,[],"['bph', 'atrial fibrillation', 'stroke', 'arthritis']",[],"['gross hematuria', 'buttock pain', 'leg pain', 'sinus issues']",genitourinary
+653,,[],[],False,[],[],[],[],unsure
+654,,['mother had stroke'],[],False,[],[],[],[],unsure
+655,,[],[],False,[],['history of smoking'],[],[],unsure
+656,sore throat,[],['Benadryl'],False,[],[],[],"['sore throat', 'puffy eyes', 'congestion', 'low-grade fever', 'hoarse voice', 'fatigue']",infectious
+657,,[],[],False,['anxiety'],"['hypertension', 'anxiety']",[],[],cardiovascular
+658,,[],[],True,[],[],[],[],unsure
+659,,[],[],False,[],[],[],[],unsure
+660,headache,[],[],True,[],[],[],"['headache', 'light sensitivity']",neurological
+661,,"['mother heart attack', 'father liver cancer', 'son hypothyroidism', 'grandchildren cerebral palsy']",[],False,[],[],[],[],unsure
+662,PPD slip for job,[],[],True,[],['chest wall cysts'],['cyst biopsy'],['chest cysts'],unsure
+663,possible ingestion of unknown fluid,[],[],False,[],[],[],[],toxicology
+664,"weakness, malaise, dyspnea on exertion",[],[],False,[],[],[],"['weakness', 'malaise', 'dyspnea on exertion', 'weight loss', 'anorexia']",respiratory
+665,,[],[],False,[],[],[],[],unsure
+666,,[],[],False,[],[],[],[],unsure
+667,,[],[],False,[],['prematurity'],[],[],unsure
+668,,[],[],False,[],[],[],[],unsure
+669,,[],[],False,[],[],[],[],unsure
+670,,[],[],False,[],[],[],[],unsure
+671,headache and neck and lower back pain,[],['ibuprofen'],False,[],[],[],"['headache', 'neck pain', 'lower back pain']",neurological
+672,back disc degeneration,[],[],False,[],['degenerative disc disease'],[],['back disc degeneration'],musculoskeletal
+673,,[],[],False,[],[],[],[],unsure
+674,,[],[],False,[],[],['surgery as a child'],[],unsure
+675,,"['mother had stroke', 'brother had prostate cancer']",[],False,[],[],[],[],unsure
+676,,[],[],False,[],[],[],[],unsure
+677,headache,[],[],False,[],[],[],['headache'],neurological
+678,,[],[],False,[],"['diabetes mellitus', 'osteomyelitis']",[],[],endocrine
+679,,[],[],False,['anxiety'],"['hypertension', 'hypothyroidism', 'degenerative joint disease', 'GERD', 'anxiety disorder', 'Morton neuroma', 'migraine']",[],[],musculoskeletal
+680,,[],[],False,[],[],[],[],unsure
+681,,[],[],True,[],[],[],"['cold', 'cough', 'runny nose']",infectious
+682,,[],"['atenolol', 'mevacor']",False,[],[],[],[],unsure
+683,,[],[],False,[],[],[],[],unsure
+684,,[],[],True,[],[],[],[],unsure
+685,inperforated anus and curvature of penis,[],[],False,[],"['urinary tract infection', 'chronic prostatitis']","['surgery for inperforated anus (soon after birth)', 'repeat penile surgeries (ages 27, 28, and 70)', 'tissue removal from anus (1988)', 'cystoscopy (1991)', 'left rotator cuff repair with acromioplasty and distal clavicle resection (2001)', 'left inguinal hernia repair with mesh (2003)']",[],genitourinary
+686,,[],[],False,[],"['COPD', 'hypertension']",[],[],respiratory
+687,,[],[],False,[],[],[],[],unsure
+688,,[],[],False,[],['acute renal failure'],[],[],genitourinary
+689,numbness and incoordination of lower extremities,[],[],False,[],[],[],"['numbness', 'tingling', 'decreased coordination', 'pins and needles sensation']",neurological
+690,progressive vision loss right eye,[],[],False,[],['blindness left eye'],[],"['progressive vision loss right eye', 'blindness left eye']",neurological
+691,,[],[],False,[],['usual childhood illnesses'],[],[],unsure
+692,,"['pancreatic cancer', 'prostate cancer', 'heart disease', 'diabetes']",[],False,[],[],[],[],oncology
+693,,[],[],True,[],[],[],[],unsure
+694,routine monitoring for lungs and heart,[],[],False,[],['former smoker'],[],[],respiratory
+695,,[],[],False,[],[],[],[],unsure
+696,,[],[],False,[],[],[],[],unsure
+697,,[],[],False,[],[],[],[],respiratory
+698,,[],[],True,[],[],[],[],unsure
+699,,"['father had myocardial infarction', 'mother had myocardial infarction', 'brother had brain tumor']",[],True,[],[],[],[],unsure
+700,,[],['Cylert'],False,[],[],[],[],psychiatric
+701,,[],[],True,[],[],[],[],unsure
+702,pain management,[],['narcotics'],False,[],['small cell lung cancer'],[],"['back pain', 'leg pain', 'numbness left foot', 'sharp pain left foot', 'mid back pain', 'radiating pain']",oncology
+703,,[],[],False,[],[],[],[],unsure
+704,erosive stomatitis,[],"['methotrexate', 'aspirin']",False,[],[],[],"['mouth sores', 'diarrhea']",gastrointestinal
+705,,[],"['insulin', 'metformin', 'glucotrol', 'lipitor']",False,[],[],[],[],endocrine
+706,itching and rash,[],[],False,[],[],[],"['itching', 'rash']",dermatological
+707,"medical issues, second opinion",[],[],True,[],"['chronic obstructive lung disease', 'gastroesophageal reflux disease', 'anemia', 'sciatica', 'arthritis']",['skin cancer excision'],[],respiratory
+708,painful right heel,[],[],False,[],[],[],"['right heel pain', 'pain worse with first step in morning', 'pain worsens with activity']",musculoskeletal
+709,,"['hypertension', 'colon cancer', 'daughter with dystonia']",[],False,[],"['hypertension', 'colon cancer']",[],['twitch'],neurological
+710,hand eczema flare,[],"['Aristocort cream', 'Cetaphil cream', 'moisturizing cream', 'moisturizing lotion']",False,[],['eczema'],[],"['dry hands', 'cracks on hands', 'pain', 'burning sensation']",dermatological
+711,,[],"['nystatin ointment', 'triamcinolone 0.1% cream', 'bactroban ointment', 'klonopin']",False,[],[],[],"['rash', 'bug bites', 'lip lesions']",dermatological
+712,,[],[],False,[],[],[],[],hematologic/lymphatic
+713,,['boils'],[],False,[],[],['C-section'],[],unsure
+714,,[],[],False,[],[],[],[],unsure
+715,,[],[],False,[],[],[],[],unsure
+716,,[],[],False,[],[],[],[],unsure
+717,,[],[],True,[],[],[],[],unsure
+718,,[],[],False,[],[],[],[],unsure
+719,,"['bone cancer', 'stroke', 'dementia']",[],False,[],[],[],[],unsure
+720,,[],[],False,[],[],[],[],unsure
+721,upper respiratory illness with apnea,[],[],False,[],['apnea'],[],"['fever', 'upper respiratory infection']",respiratory
+722,recurrent abscesses,[],[],False,[],[],['incision and drainage'],['abscesses'],infectious
+723,leukopenia and IBS,[],[],False,[],"['episodic leukopenia', 'irritable bowel syndrome']",[],[],gastrointestinal
+724,,['mother had arthritis'],[],False,[],[],[],[],unsure
+725,,[],[],False,[],[],[],['limited mobility'],musculoskeletal
+726,,[],[],False,[],[],[],[],unsure
+727,left elbow hardware irritation,[],[],True,[],"['left elbow fracture dislocation', 'right glenoid neck fracture']",['open reduction and internal fixation of left elbow fracture dislocation'],"['stiffness', 'irritation with elbow extension', 'pain']",injury/trauma
+728,,['father had coronary heart disease'],[],False,[],[],[],[],cardiovascular
+729,,[],[],False,[],[],[],[],unsure
+730,,[],[],True,[],[],[],[],unsure
+731,Nausea and dizziness,[],[],False,[],[],[],"['nausea', 'dizziness']",unsure
+732,right-sided weakness,[],[],False,[],['stroke'],[],"['right-sided weakness', 'right facial paralysis']",neurological
+733,,[],[],False,[],[],[],[],unsure
+734,,[],[],False,[],['melanoma'],"['melanoma surgery', 'hysterectomy']",[],oncology
+735,,['type II diabetes in aunt'],[],False,[],[],[],[],unsure
+736,short-term memory loss,[],[],False,"['anxiety', 'stress']",[],[],['memory loss'],psychiatric
+737,high cholesterol,['brother has elevated cholesterol'],[],False,[],['high cholesterol'],[],[],cardiovascular
+738,,[],[],False,[],[],[],['possible free air under diaphragm'],gastrointestinal
+739,constant pain worsening with cold weather,[],[],False,['insomnia'],[],[],"['pain', 'difficulty getting out of bed', 'poor sleep']",musculoskeletal
+740,,[],[],False,[],['history of smoking'],[],['tracheostomy'],respiratory
+741,,[],"['toprol', 'avalide']",False,['anxiety'],"['hypertension', 'anxiety']",[],[],cardiovascular
+742,"dietary consultation for hyperlipidemia, hypertension, GERD, weight reduction",['husband has high cholesterol'],[],False,[],"['hyperlipidemia', 'hypertension', 'gastroesophageal reflux disease']",[],['acid reflux'],endocrine
+743,left flank pain and unable to urinate,[],[],False,[],[],[],"['left flank pain', 'unable to urinate']",genitourinary
+744,,[],[],True,[],['disability'],[],[],unsure
+745,dementia care,[],[],False,"['dementia', 'schizophrenia']","['dementia', 'asthma', 'anemia', 'hypothyroidism', 'schizophrenia', 'positive PPD']",[],[],psychiatric
+746,,[],[],False,[],[],[],[],unsure
+747,,[],[],False,[],[],[],[],unsure
+748,allergic rhinitis,[],[],False,[],[],[],['allergic rhinitis'],respiratory
+749,,[],[],False,"['confusion', 'disorientation']",[],[],"['drowsiness', 'confusion']",unsure
+750,,[],[],True,[],[],[],[],unsure
+751,difficulty with stools,[],[],False,[],[],[],"['hard stools', 'difficulty with stools']",gastrointestinal
+752,,[],[],False,[],[],[],[],unsure
+753,,[],[],False,[],[],[],[],unsure
+754,,[],[],True,[],[],[],[],obstetrics/gynecology
+755,,[],[],False,[],[],"['bilateral tubal ligation', 'colon polyp removal']",[],unsure
+756,fever,[],[],False,[],[],[],['fever'],infectious
+757,itchy rash on torso and arms,[],[],False,[],[],[],"['itchiness', 'rash']",dermatological
+758,,[],[],False,[],['Sulfa allergy'],[],['rash'],dermatological
+759,,[],[],False,[],[],[],['smoking'],unsure
+760,,"['mother had myocardial infarction', 'father had prostate cancer', 'brother had coronary artery disease', 'brother had prostate cancer']",[],False,[],[],[],[],unsure
+761,abdominal pain,[],['pepto bismol'],False,[],[],[],['abdominal pain'],gastrointestinal
+762,depression,[],[],False,['depression'],['depression'],[],[],psychiatric
+763,,[],[],False,['stress'],[],[],[],psychiatric
+764,headache,[],[],False,[],[],[],['headache'],neurological
+765,,[],[],False,[],[],[],[],neurological
+766,,"['diabetes', 'hypertension', 'emphysema']",[],False,[],[],[],[],unsure
+767,acute cystitis,[],['diabetes medication'],False,[],['diabetes type II'],[],"['painful urinary tract infection', 'acute cystitis']",genitourinary
+768,,[],[],False,[],"['strep throat', 'mumps', 'chickenpox']",[],[],unsure
+769,possible prostate problem,[],[],False,['nervousness'],[],[],[],genitourinary
+770,allergic rhinitis,[],['claritin'],False,[],[],[],['allergic rhinitis'],respiratory
+771,,[],[],False,[],[],[],[],unsure
+772,,['father had myocardial infarction'],[],True,[],[],[],[],cardiovascular
+773,feeling sick and weak,[],[],False,[],[],[],"['sick', 'weak']",unsure
+774,,[],[],False,[],[],[],[],unsure
+775,right arm pain,[],"['Medrol dose packs', 'multiple pain medications']",False,[],"['neck pain', 'degenerative cervical spine changes', 'blood sugar increase']",[],"['right arm pain', 'achy sensation in right hand radiating to fingers', 'ear pain']",musculoskeletal
+776,,[],[],False,[],[],"['C-section', 'D&C']",[],obstetrics/gynecology
+777,,[],[],False,[],[],[],[],unsure
+778,,[],[],False,[],[],[],[],unsure
+779,,['grandfather had coronary artery disease'],[],False,[],[],[],[],neurological
+780,progressive right side weakness and falls,[],[],True,[],[],[],"['gait difficulty', 'generalized weakness', 'visual obscurations', 'clumsiness right hand', 'falls', 'balancing problems']",neurological
+781,,[],[],False,[],[],[],[],unsure
+782,right lower back and gluteal pain,[],[],False,[],[],[],"['pain', 'aching', 'difficulty with stairs', 'pain with prolonged sitting', 'limited activity']",musculoskeletal
+783,memory loss problems,[],[],False,[],"['hypertension', 'left temporal lobe epilepsy']",[],"['memory loss', 'seizures']",neurological
+784,,[],[],False,[],[],[],[],unsure
+785,memory loss and cognitive decline,[],[],False,['emotional lability'],"[""dementia of Alzheimer's type""]",[],"['memory loss', 'cognitive decline', 'disorientation', 'difficulty reading', 'difficulty with flower arranging', 'difficulty with cash register', 'getting lost in home', 'word finding difficulty', 'attention difficulty', 'calculation difficulty', 'emotional lability', 'walking bent over', 'veering to the right', 'not recognizing location']",neurological
+786,,[],[],False,[],[],[],[],unsure
+787,,[],[],False,[],[],[],[],unsure
+788,delayed motor development,[],[],False,[],[],[],"['jaw quivering', 'lazy eye', 'delayed walking', 'left intoeing', 'falls']",neurological
+789,severe bruising,[],['coumadin'],False,[],[],[],['severe bruising'],cardiovascular
+790,,[],[],False,[],[],[],[],unsure
+791,,[],[],True,[],[],[],[],unsure
+792,paranoia,[],['current medications'],False,['paranoia'],[],[],['paranoia'],psychiatric
+793,,[],[],False,[],[],[],[],infectious
+794,,[],[],False,"['stress', 'low mood']",[],[],['low mood'],psychiatric
+795,,"['father had stroke', 'father had hypertension', 'mother had congestive heart failure', 'mother had emphysema']",[],False,[],[],[],[],unsure
+796,,[],[],False,[],[],['knee replacements'],[],musculoskeletal
+797,exertional shortness of breath,[],[],False,[],[],[],"['exertional shortness of breath', 'frequent urination']",respiratory
+798,,[],[],False,[],[],[],[],unsure
+799,chronic epigastric abdominal pain,[],['omeprazole'],True,[],[],[],"['chronic epigastric pain', 'stabbing epigastric pain', 'nausea', 'vomiting', 'weight loss', 'poor appetite', 'loose bowel movements']",gastrointestinal
+800,,[],[],False,[],[],[],[],unsure
+801,,"['hypertension', 'stroke']",[],False,[],[],[],[],unsure
+802,,[],[],False,[],[],[],[],unsure
+803,,[],[],False,[],[],[],[],unsure
+804,,[],[],False,[],[],[],[],unsure
+805,nausea and vomiting,[],[],True,['depression'],"['chronic right hip pain', 'osteoporosis', 'hypertension', 'depression', 'chronic atrial fibrillation']",[],"['nausea', 'vomiting', 'pain in urination']",infectious
+806,,[],[],False,[],[],[],[],unsure
+807,right hand numbness and tingling,[],['antiinflammatories'],False,[],[],[],"['numbness', 'tingling']",musculoskeletal
+808,congestion and cough,[],[],False,[],[],[],"['congestion', 'cough']",respiratory
+809,,[],[],False,[],[],[],[],unsure
+810,,[],[],False,[],[],[],[],obstetrics/gynecology
+811,,[],[],False,[],[],"['left total hip replacement', 'hysterectomy', 'appendectomy']",[],unsure
+812,,[],[],False,[],[],[],[],psychiatric
+813,acne,[],['accutane'],False,[],[],[],['acne'],dermatological
+814,,[],[],False,[],[],"['craniotomy', 'leg fracture surgery', 'stomach surgery as a child']",[],unsure
+815,,[],[],False,[],[],[],[],unsure
+816,,['memory loss in parents in their nineties'],[],False,[],[],[],[],neurological
+817,,['coronary artery disease'],[],False,[],[],[],[],cardiovascular
+818,right lower leg and hip pain,[],['tylenol'],False,[],"['hyperlipidemia', 'hypertension', 'atherosclerotic cerebrovascular disease', 'spondylolisthesis', 'stenosis', 'facet joint arthropathy', 'degenerative disc disease']","['L3-4 decompression', 'right posterior surgical fusion']","['burning pain', 'shooting pain', 'aching pain', 'pain worse with standing', 'pain worse with walking', 'pain in right hip', 'pain in anterior tibia', 'pain rating 9/10 daily']",musculoskeletal
+819,,[],[],False,[],[],[],[],unsure
+820,,"['migraine headaches on maternal side', 'mother had migraine headaches']",[],False,[],[],[],[],neurological
+821,,[],[],False,[],[],[],[],unsure
+822,,[],[],False,[],"['former heavy smoker', 'former heavy drinker']",[],[],unsure
+823,COPD and emphysema follow-up,[],[],False,"['psychiatric problems', 'frustration']","['COPD', 'emphysema', 'psychiatric problems']",[],"['shortness of breath on exertion', 'cough', 'sputum production']",respiratory
+824,,[],[],False,[],[],[],[],unsure
+825,microscopic hematuria with overactive bladder,[],['Ditropan'],False,[],"['overactive bladder', 'microscopic hematuria']",['cystoscopy'],"['frequency', 'urgency', 'microscopic hematuria']",genitourinary
+826,,[],[],False,[],[],[],[],unsure
+827,difficulty remembering names and events,[],[],True,[],[],[],"['difficulty remembering names', 'difficulty remembering phone numbers', 'difficulty remembering events']",neurological
+828,,[],[],False,[],[],[],[],unsure
+829,,[],[],False,[],[],[],[],unsure
+830,binocular diplopia,[],[],False,[],['binocular diplopia'],[],"['double vision', 'drooping eyelid']",neurological
+831,feet pain with planovalgus deformity,[],[],False,[],[],[],"['feet pain', 'feet rotate inwards']",musculoskeletal
+832,right shoulder injury,[],[],False,[],[],"['subacromion decompression', 'suprascapular nerve decompression']",['right shoulder pain'],musculoskeletal
+833,,[],[],False,[],[],[],[],unsure
+834,,[],[],False,[],[],[],[],unsure
+835,,[],[],False,[],[],[],[],unsure
+836,,[],[],False,[],"['hypertension', 'morbid obesity']",[],[],endocrine
+837,,[],[],False,[],[],[],[],unsure
+838,,['brother had myocardial infarction'],[],False,[],[],[],[],cardiovascular
+839,palpitations and weakness,['mother had hypertension'],[],False,['withdrawal'],['hypertension'],[],"['palpitations', 'weakness']",cardiovascular
+840,breast cancer screening,['sister had breast cancer'],[],False,[],[],[],[],oncology
+841,,[],[],False,[],"['toe problems', 'left knee pain']",[],[],musculoskeletal
+842,,[],[],False,[],['atrial fibrillation'],"['mastectomy', 'chest tube placement']",[],cardiovascular
+843,erectile dysfunction,[],['cialis 10 mg'],False,[],"['elevated PSA', 'high grade PIN']",[],"['firm erection', 'penetration for about ten minutes']",genitourinary
+844,cancer diagnosis,[],[],False,[],"['hypertension', 'diabetes', 'cancer']",[],[],oncology
+845,,[],[],False,[],[],[],[],unsure
+846,,"['coronary artery disease', 'diabetes mellitus']",[],False,[],[],[],[],unsure
+847,,[],[],False,[],[],[],[],unsure
+848,redness of right great toe,[],[],False,[],['chronic nasal congestion'],[],"['redness of right great toe', 'nasal congestion', 'fullness']",infectious
+849,,[],[],False,[],[],"['lumpectomy', 'breast augmentation', 'cholecystectomy', 'cardiac ablation', 'left knee surgery', 'pancreatectomy']",[],unsure
+850,,[],[],False,[],[],[],[],unsure
+851,,"['diabetes', 'hypertension']",[],False,[],[],[],[],unsure
+852,,[],[],False,[],"['heart disease', 'hypertension', 'type II diabetes', 'pulmonary embolism', 'hyperlipidemia', 'peptic ulcer disease', 'recurrent urinary tract infections']","['appendectomy', 'cesarean section', 'cataract surgery', 'hernia repair']",[],cardiovascular
+853,,[],[],True,[],[],[],[],unsure
+854,,[],[],False,[],[],[],[],unsure
+855,,[],[],False,[],[],[],[],unsure
+856,general wellness check,[],[],True,[],"[""Crohn's disease""]","['right knee replacement', 'back surgery']",['shortness of breath on stairs'],unsure
+857,,[],[],False,[],[],[],[],unsure
+858,,[],[],False,[],"['tobacco abuse', 'alcohol abuse']",[],[],toxicology
+859,subarachnoid hemorrhage,[],[],False,[],['subarachnoid hemorrhage'],[],"['headache', 'unconsciousness', 'falls asleep']",neurological
+860,,[],[],False,[],[],['hernia repair'],[],unsure
+861,,[],[],False,[],[],[],[],unsure
+862,heel pain,[],[],False,[],[],[],['heel pain'],musculoskeletal
+863,,[],['methadone'],False,['depression'],['substance abuse'],[],[],psychiatric
+864,,"['father had diabetes', 'mother had diabetes']",[],False,[],[],[],[],unsure
+865,,[],[],False,[],[],[],[],unsure
+866,left knee pain,[],[],False,[],['MCL sprain'],[],"['knee locking', 'pain', 'limited extension']",musculoskeletal
+867,difficulty breathing,[],[],True,[],[],[],"['difficulty breathing', 'cough', 'low-grade fever', 'intermittent headaches', 'bilateral chest pain']",respiratory
+868,,[],[],False,[],[],[],[],unsure
+869,left eye pain,[],[],False,[],[],[],['left eye pain'],unsure
+870,loud obstructive snoring,[],[],False,[],"['allergic rhinitis', 'sleep apnea']",[],"['snoring', 'hypopnea', 'mask falls off at night']",respiratory
+871,anxiety and chest pain,[],[],False,"['anxiety', 'alcohol abuse']","['anxiety', 'alcohol abuse']",[],"['anxiety', 'chest pain']",psychiatric
+872,,[],[],False,[],[],[],[],unsure
+873,atrial fibrillation follow-up,[],['Coumadin'],False,[],['atrial fibrillation'],[],"['dizziness', 'vertigo', 'lightheadedness', 'back pain']",cardiovascular
+874,knee pain,[],[],False,[],[],[],"['knee pain', 'knee pop']",injury/trauma
+875,difficulty maintaining sleep,[],"['opioids', 'lasix']",False,[],"['polyarteritis nodosa', 'mononeuritis multiplex', 'sleep apnea']",[],"['difficulty falling asleep', 'difficulty maintaining sleep', 'leg pain', 'lower extremity edema']",respiratory
+876,right-sided facial droop,[],[],False,['dementia'],"['stroke', 'dementia', 'expressive aphasia', 'urinary tract infection']",[],"['right-sided facial droop', 'right-sided upper extremity weakness']",neurological
+877,left knee pain,[],[],False,[],[],[],['left knee pain'],musculoskeletal
+878,,[],[],True,[],[],[],[],unsure
+879,,[],[],False,[],[],[],[],unsure
+880,fatigue,[],[],False,[],[],[],"['fatigue', 'pale']",unsure
+881,acute severe headaches after shunt adjustment,[],"['Imitrex', 'Motrin 800 mg']",False,"['depression', 'insomnia']","['chronic headaches', 'depression']",['Codman-Hakim shunt placement'],"['headache', 'ringing in ears', 'blurred vision', 'dimming lights', 'pain worse with coughing, straining, sneezing, standing', 'pain better lying down', 'poor sleep']",neurological
+882,,[],[],False,[],"['asthma', 'sinus issues', 'hives', 'psoriasis']",[],[],respiratory
+883,,[],[],False,[],[],[],[],unsure
+884,palpitations and nausea,[],[],False,"['stress', 'anxiety', 'nervousness']",['palpitations'],[],"['palpitations', 'fluttering chest sensation', 'fatigue', 'chest pain', 'nausea', 'loose stools', 'green stool', 'decreased appetite']",cardiovascular
+885,,[],[],False,[],[],[],[],unsure
+886,upper respiratory infection,[],"['cough drops', 'Advil']",False,[],[],[],"['cough', 'stuffy nose', 'headache']",respiratory
+887,weakness and inability to stand after seizures and surgeries,[],"['antibiotic', 'probiotic']",False,[],"['seizures', 'hemiparesis', 'C-diff infection']","['surgery on 07/06', 'radiation treatment', 'surgery on 08/07']","['weakness', 'inability to stand', 'partial weakness on one side', 'intestinal infection']",neurological
+888,,[],[],False,[],[],[],[],psychiatric
+889,fifth disease with sinusitis,[],[],False,[],[],[],"['sinusitis', 'fifth disease']",infectious
+890,abdominal pain,[],[],False,[],[],[],['abdominal pain'],gastrointestinal
+891,decreased appetite,[],[],False,[],[],[],['decreased appetite'],gastrointestinal
+892,knee pain after fall,[],['antiinflammatories'],False,[],[],['knee surgery'],"['knee pain', 'inability to bear weight', 'swelling', 'popping', 'knee giving way']",musculoskeletal
+893,generalized weakness and lightheadedness,[],[],True,[],[],[],"['generalized weakness', 'lightheadedness', 'left hand numbness', 'falling spells']",neurological
+894,,[],[],True,[],[],[],[],unsure
+895,Ecstasy overdose and agitation after partying,[],[],False,[],[],[],"['agitation', 'shaking', 'vomiting']",toxicology
+896,,[],[],False,[],[],[],[],unsure
+897,,[],[],True,[],[],[],[],unsure
+898,,[],[],False,[],[],[],[],unsure
+899,right knee pain,[],[],False,[],[],[],['right knee pain'],musculoskeletal
+900,progressive sensory and motor deficits in both legs,[],[],False,[],['chronic shortness of breath'],[],"['numbness from nipple line down', 'leg weakness', 'difficulty walking', 'cold sensation in legs', 'worsening shortness of breath', 'lightheadedness on standing', 'bowel movement absent 3 days', 'no urination 24 hours']",neurological
+901,,[],[],False,[],[],[],[],unsure
+902,left ankle pain and deformity due to fall,[],[],False,[],[],[],"['left ankle pain', 'ankle deformity']",injury/trauma
+903,,[],"['augmentin', 'detrol la', 'lisinopril']",False,[],[],[],[],unsure
+904,,[],[],False,[],[],[],[],unsure
+905,massive headache,"['migraine', 'diabetes']",[],False,[],[],[],['headache'],neurological
+906,toothache,[],[],False,[],[],[],"['toothache', 'jaw pain', 'ear pain']",unsure
+907,trigger finger,[],[],False,[],"['trigger finger', 'mucous cyst']",[],"['finger locking', 'finger pain']",musculoskeletal
+908,occipital headache,[],[],False,[],[],[],"['headache', 'nausea', 'photophobia']",neurological
+909,,[],[],False,[],[],[],[],unsure
+910,sepsis,[],[],False,[],[],[],['sepsis'],infectious
+911,,[],[],False,[],[],[],[],unsure
+912,bilateral knee pain,[],['anti-inflammatory medications'],False,[],[],[],['bilateral knee pain'],musculoskeletal
+913,left ear pain,[],['amoxicillin'],False,[],[],[],"['left ear pain', 'congestion', 'productive cough', 'thick purulent mucous']",infectious
+914,,[],[],False,[],[],[],"['weakness', 'muscular pain']",musculoskeletal
+915,hyperlipidemia,[],['gemfibrozil'],False,[],['hyperlipidemia'],[],[],endocrine
+916,,[],[],False,[],[],[],[],unsure
+917,foreign body sensation in left eye,[],[],False,[],[],[],"['foreign body sensation', 'left eye pain']",injury/trauma
+918,pelvic pain and itching,[],['birth control pills'],False,['mood swings'],[],[],"['discomfort in private area', 'itching', 'pelvic pain', 'painful sex']",genitourinary
+919,,[],[],False,[],[],[],[],unsure
+920,,[],[],False,[],[],[],[],unsure
+921,,[],[],False,[],[],[],[],unsure
+922,,[],[],False,[],[],[],[],unsure
+923,,[],[],False,[],[],[],[],unsure
+924,stroke symptoms,[],['Antivert'],True,[],['dizziness'],[],"['throat sensation', 'dizziness', 'left hand numbness', 'left jaw numbness', 'left facial numbness', 'left neck numbness', 'earache']",neurological
+925,,"['stroke', 'coronary artery disease', 'cancer']",[],False,[],[],[],[],unsure
+926,,[],[],False,[],[],[],[],unsure
+927,,[],[],False,[],"['no history of heart attack', 'no history of arrhythmias', 'no history of hypertension']",[],[],cardiovascular
+928,,[],[],False,[],[],[],[],unsure
+929,multiple subcutaneous abscesses right thigh,[],[],False,[],[],['multiple abscess excision right thigh'],"['multiple extensive subcutaneous abscesses right thigh', 'massive open wound right thigh']",infectious
+930,follow up post surgeries,[],[],False,[],"['breast cancer', 'osteoarthritis']","['left mastectomy', 'right knee replacement']",[],oncology
+931,left distal humerus fracture,[],[],False,[],[],[],"['deformed left elbow', 'ecchymosis', 'pain']",injury/trauma
+932,atrial fibrillation,[],"['Coumadin', 'Pacerone', 'Zaroxolyn', 'albuterol inhaler', 'Neurontin', 'Lasix']",False,[],"['atrial fibrillation', 'smoking history']",[],['heart rhythm disorder'],cardiovascular
+933,,"['asthma', 'diabetes', 'renal disease']",[],False,[],[],[],[],unsure
+934,,"['father had valvular heart disease', 'mother had diabetes mellitus', 'brother had coronary artery bypass graft']",[],False,[],[],[],[],cardiovascular
+935,acute abdominal pain,[],[],True,['dementia'],['dementia'],[],"['abdominal pain', 'fever', 'painful urination', 'difficulty urinating', 'urinary accidents']",genitourinary
+936,,['mother had multiple myeloma'],[],False,[],[],[],[],oncology
+937,,[],[],False,[],[],[],[],unsure
+938,chronic abdominal pain,[],[],False,[],[],[],['bellyache'],gastrointestinal
+939,hypertension and hypercholesterolemia follow-up,[],[],False,[],"['hypertension', 'hypercholesterolemia']",[],[],cardiovascular
+940,chest pain,[],[],False,[],[],[],"['chest pain', 'fever']",cardiovascular
+941,headache,[],[],False,['dementia'],['dementia'],[],['headache'],neurological
+942,,[],[],False,[],[],[],[],unsure
+943,,[],[],False,[],"['allergy to clonidine', 'allergy to medifast']",[],"['rash', 'fatigue']",unsure
+944,knee pain and instability after twisting injury,[],[],False,[],['patellofemoral joint instability'],[],"['knee pain', 'knee instability', 'knee dislocations']",musculoskeletal
+945,,"['leukemia', 'kidney failure', 'heart failure', 'breast cancer', 'cancer', 'hypertension', 'nervous condition', 'kidney disease', 'high cholesterol', 'depression']",[],False,"['depression', 'nervous condition']",[],[],[],unsure
+946,,[],[],False,[],[],[],[],unsure
+947,dark urine and generalized weakness,[],[],False,[],[],[],"['dark urine', 'weakness', 'tired']",unsure
+948,low back and right thigh pain,[],['Medrol Dosepak'],False,[],"['degenerative changes', 'arthritis']","['two laminectomies', 'discectomy']","['low back pain', 'right thigh pain', 'intermittent minimal right leg pain']",musculoskeletal
+949,,[],[],False,[],[],[],[],unsure
+950,,[],[],False,[],[],[],[],unsure
+951,,[],[],False,[],[],[],[],unsure
+952,,[],[],False,[],[],[],[],unsure
+953,multiple myeloma,[],[],False,[],['IgG subtype multiple myeloma'],[],[],oncology
+954,follow up diabetes mellitus and cerebrovascular accident,[],[],False,[],"['diabetes mellitus', 'cerebrovascular accident']",[],[],endocrine
+955,,[],[],False,[],[],[],[],unsure
+956,vomiting and nausea,[],[],False,[],[],[],"['queasy tummy', 'vomiting']",gastrointestinal
+957,,"['father type I diabetes', 'father heart disease', 'brother heart attack']",[],False,[],[],[],[],cardiovascular
+958,questions about diet and exercise,"['congestive heart failure', 'myocardial infarction', 'ischemic cardiac disease', 'lymphoma', 'asthma']",[],False,[],[],[],[],cardiovascular
+959,,[],[],False,[],[],[],[],unsure
+960,,[],[],False,[],[],[],[],unsure
+961,,[],[],False,[],[],[],[],unsure
+962,,[],[],False,['anxiety'],[],[],[],psychiatric
+963,belly and back pain,[],['antibiotics'],False,[],[],[],"['belly pain', 'back pain', 'foul odor from nose']",infectious
+964,,[],['Alesse-28'],False,[],[],[],[],obstetrics/gynecology
+965,Lap-Band done today,[],[],False,[],[],"['lap band', 'right foot surgery']",[],gastrointestinal
+966,left knee flexion contracture,[],[],False,['autism'],"['autism', 'premature birth']",['right distal medial hamstring release'],"['left knee flexion contracture', 'inability to straighten left leg']",musculoskeletal
+967,dyspnea on exertion,[],[],False,[],[],[],"['dyspnea', 'shortness of breath']",respiratory
+968,,"['mesothelioma', 'ALS']",[],False,[],[],[],[],unsure
+969,left elbow fracture,[],[],False,[],[],[],"['left elbow pain', 'burning', 'tingling']",injury/trauma
+970,,"['idiopathic pulmonary fibrosis', 'irritable bowel syndrome']",[],False,[],[],[],[],unsure
+971,,[],[],False,[],"['diabetes', 'asthma', 'hypertension', 'hypercholesterolemia']",[],[],endocrine
+972,,[],[],False,[],[],[],[],unsure
+973,,[],['Coumadin'],False,[],['hypersensitivity to Coumadin'],[],"['bruising', 'bleeding episodes']",unsure
+974,sore throat,[],['Benadryl'],False,[],[],[],"['sore throat', 'puffy eyes', 'congestion', 'low-grade fever', 'tiredness', 'hoarse voice', 'stuffy nose', 'difficulty breathing']",infectious
+975,,[],[],False,[],[],[],[],unsure
+976,left ankle pain after fall,[],[],False,[],[],[],"['left ankle pain', 'left foot inverted']",injury/trauma
+977,,[],[],False,[],[],[],[],unsure
+978,,"['mother had TIAs', 'father had heart disease', 'sister has diabetes', 'mother possibly had diabetes']",[],False,[],[],[],[],unsure
+979,,[],[],False,[],[],[],[],musculoskeletal
+980,,[],[],False,[],[],[],[],unsure
+981,,[],[],False,[],[],[],[],neurological
+982,left flank pain and difficulty urinating,[],[],False,[],['bruised left kidney'],[],"['left flank pain', 'difficulty urinating']",genitourinary
+983,,"['hypertension', 'mother died myocardial infarction', 'father congestive heart failure', 'father pacemaker placement']",[],False,[],[],[],[],cardiovascular
+984,abdominal pain,[],[],False,[],[],[],"['abdominal pain', 'gnawing pain']",gastrointestinal
+985,,[],[],True,['mental health issues'],[],[],[],psychiatric
+986,,[],[],False,[],['HPV'],"['D and C', 'bone fragment removal from right arm', 'ovarian cancer staging biopsy']",['pain after biopsy'],oncology
+987,,[],[],False,[],[],[],[],unsure
+988,pain and numbness in right toes,[],[],False,['insomnia'],"['hypothyroidism', 'thrombocythemia', 'hypertension', 'insomnia']",[],"['numbness', 'tingling', 'pain in toes', 'paresthesias', 'bilateral shoulder pain', 'insomnia']",neurological
+989,,[],[],False,[],[],[],[],unsure
+990,cough and congestion,[],[],False,[],[],[],"['cough', 'congestion']",respiratory
+991,,[],[],True,['stress'],[],[],[],psychiatric
+992,,[],[],False,[],[],[],[],unsure
+993,cough and body aches,[],['keflex'],False,['tearful'],[],[],"['body aches', 'cough', 'sore throat', 'productive cough', 'green sputum', 'chills']",infectious
+994,jerky movement in arm and leg,[],[],False,[],[],[],"['jerky movement in arm', 'jerky movement in leg']",neurological
+995,request for methadone,[],[],False,"['depression', 'low energy', 'anhedonia']",[],['left kidney donation'],"['depression', 'low energy', 'anhedonia']",psychiatric
+996,chronic abscesses with open wounds on bilateral thighs,[],[],False,[],['history of drug use'],[],"['chronic abscesses', 'open wounds on bilateral thighs']",infectious
+997,,[],[],False,[],[],[],[],unsure
+998,,[],[],True,[],[],[],[],unsure
+999,,[],[],False,[],[],[],[],unsure
+1000,,[],[],False,[],[],[],[],unsure
+1001,,[],[],False,[],[],[],['pain'],musculoskeletal
+1002,headaches,[],"['papaverine', 'Russian medicine']",True,['stress'],[],[],"['headache', 'tunnel vision', 'dizziness', 'photophobia', 'lightheadedness', 'syncope']",neurological
+1003,pain management,[],['morphine'],False,[],['alcohol use history'],[],['pain'],unsure
+1004,,[],[],False,[],['spina bifida'],"['back closure for spina bifida', 'shunt placement', 'hysterectomy', 'breast reduction']",[],unsure
+1005,,[],[],False,[],[],[],[],unsure
+1006,,[],[],False,[],[],[],[],unsure
+1007,reevaluation of acne and rash,[],"['amoxicillin', 'tazorac cream']",False,[],['acne'],[],"['acne flare', 'rash on chest, stomach, neck, and back']",dermatological
+1008,bronchitis,[],[],False,[],[],[],['bronchitis'],respiratory
+1009,foot inversion injury,[],[],True,[],[],[],"['swelling', 'pain', 'limping', 'tenderness around navicular', 'inversion injury']",injury/trauma
+1010,infected foreign body in right nostril,[],[],False,[],['constipation'],[],['infected foreign body in right nostril'],respiratory
+1011,hot oil burn on arm,[],[],True,[],[],[],['burn on arm'],injury/trauma
+1012,,[],[],False,[],"['hypertension', 'asthma', 'cervical cancer']",[],[],oncology
+1013,,[],['ibuprofen'],False,[],[],[],['pain'],unsure
+1014,,[],"['Aciphex', 'aspirin']",False,[],[],[],[],unsure
+1015,,[],[],False,['smoking'],[],[],[],respiratory
+1016,,[],[],False,[],[],[],[],neurological
+1017,,[],[],False,[],['grade 4 bladder prolapse'],"['cholecystectomy', 'appendectomy', 'hysterectomy']",[],genitourinary
+1018,sinus congestion,[],[],False,[],['allergies'],[],"['sinus congestion', 'headache', 'clear nasal drainage']",respiratory
+1019,,[],[],False,[],[],[],[],unsure
+1020,recurrent abscesses in perineum and vulva,[],[],False,[],"['hidradenitis suppurativa', 'asthma']",[],"['abscesses', 'red bumps']",dermatological
+1021,chest pain,[],[],False,['stress'],"['hyperlipidemia', 'smoking history']",['cardiac catheterization'],['chest pain'],cardiovascular
+1022,,[],[],False,[],[],[],[],unsure
+1023,,[],[],False,[],['smoker'],[],[],unsure
+1024,Sulfa drug rash,[],[],False,[],['sulfa allergy'],[],['rash'],dermatological
+1025,,[],[],False,[],[],[],[],unsure
+1026,,[],[],False,[],[],[],[],unsure
+1027,right hand tingling and numbness,[],[],False,[],[],[],"['tingling', 'numbness', 'pain in thumb']",musculoskeletal
+1028,,[],[],False,[],['broken ankle'],[],['bumped head'],injury/trauma
+1029,,[],[],False,[],[],[],[],respiratory
+1030,,[],[],False,[],['high blood pressure'],[],['weight gain'],cardiovascular
+1031,thrombosis treatment,[],[],False,[],['thrombosis'],[],[],cardiovascular
+1032,numbness in left hand,[],[],False,[],[],[],['numbness in left hand'],neurological
+1033,joint pain and decreased mobility,[],"['Daypro', 'Zoloft']",False,"['depression', 'sleeping all the time']",['depression'],[],"['joint pain', 'decreased mobility', 'diarrhea', 'urinary incontinence', 'pedal edema']",musculoskeletal
+1034,sinusitis,['sister sinus problems'],[],False,[],[],[],['sinusitis'],infectious
+1035,nausea and right upper quadrant pain,[],[],False,[],[],['gastric bypass surgery'],"['nausea', 'right upper quadrant pain', 'malaise', 'low-grade fever']",gastrointestinal
+1036,acute tiredness,[],['diuretic'],False,[],['anemia'],[],['tiredness'],unsure
+1037,,[],[],False,[],['smoking'],[],[],respiratory
+1038,,[],[],False,[],[],[],[],unsure
+1039,,"['coronary artery disease', 'stroke', 'congestive heart failure']",[],False,[],[],[],[],cardiovascular
+1040,,[],[],False,[],[],"['CABG', 'appendectomy', 'tonsillectomy']",[],unsure
+1041,low back pain,[],[],False,[],"['low back pain', 'degenerative disc disease']",['nerve cauterization'],"['low back pain', 'weakness in lower extremities']",musculoskeletal
+1042,,[],[],False,[],[],"['anterior cervical discectomy and fusion C3-C7', 'back surgeries (4)']",[],unsure
+1043,,[],[],False,[],[],['skin tag removal'],[],unsure
+1044,knee pain,[],[],False,[],[],[],['pain with ambulation'],musculoskeletal
+1045,,[],[],False,[],[],[],[],unsure
+1046,,[],[],False,[],[],[],[],unsure
+1047,,[],[],False,[],"['smoker', 'alcohol use']",[],[],unsure
+1048,,[],[],False,[],[],[],['smoking'],respiratory
+1049,,"['father had heart disease', 'mother died from dental procedure complications']",[],False,[],[],[],[],cardiovascular
+1050,cough and abdominal pain,[],[],False,[],[],[],"['cough', 'abdominal pain']",gastrointestinal
+1051,,[],[],False,[],[],[],[],unsure
+1052,,['coronary artery disease'],[],False,[],[],[],[],cardiovascular
+1053,foot pain,[],"['pain medicines', 'muscle relaxers']",False,[],[],['foot surgery with plates and screws'],['foot pain'],musculoskeletal
+1054,,[],[],False,[],[],[],[],unsure
+1055,medication refill,[],[],True,['stress'],[],[],['acne'],dermatological
+1056,,[],[],False,[],[],[],[],unsure
+1057,,[],[],False,[],[],['cardiac catheterization'],[],unsure
+1058,allergy evaluation,[],['atenolol'],False,[],"['renal failure', 'hypertension']",[],"['perioral swelling', 'grass allergies', 'environmental allergies', 'inhalant allergies']",allergy/immune
+1059,hypertension,[],[],False,['anger'],['hypertension'],[],['high blood pressure'],cardiovascular
+1060,lip swelling with difficulty swallowing,[],[],False,[],[],[],"['lip swelling', 'difficulty swallowing']",unsure
+1061,,[],['antihypertensive'],False,['depression'],"['depression', 'hypertension']",['hemorrhoidectomy'],[],psychiatric
+1062,,[],[],False,[],[],[],[],unsure
+1063,,[],[],True,[],[],[],[],unsure
+1064,routine check up,[],[],False,[],[],[],[],unsure
+1065,,[],[],True,[],[],[],[],unsure
+1066,detox from heroin,[],[],False,['insomnia'],['drug use'],[],"['body aches', 'pain', 'fever', 'chills', 'diarrhea', 'loss of appetite', 'insomnia']",toxicology
+1067,,[],[],True,['nervous breakdown'],['hypertension'],[],[],psychiatric
+1068,,[],[],False,[],"['no headaches', 'no migraines', 'no vertigo', 'no syncope', 'no visual loss', 'no tinnitus', 'no sinusitis']",[],[],neurological
+1069,facial wrinkles,[],[],False,[],[],[],"['wrinkles', 'fullness in submandibular and mid face', 'nasolabial folds']",dermatological
+1070,shoulder pain due to rotator cuff re-tear,[],[],False,[],['rotator cuff tear'],['rotator cuff repair'],['shoulder pain'],musculoskeletal
+1071,foot laceration,[],[],False,[],[],[],['foot bleeding'],injury/trauma
+1072,,[],[],True,[],"['smoking', 'alcohol abuse']",[],[],unsure
+1073,,[],[],False,[],['thyroid cancer'],['total thyroidectomy'],[],oncology
+1074,developmental delay,[],[],True,[],['early miscarriage'],[],"['delayed walking', 'delayed rolling', 'not toilet trained']",neurological
+1075,,[],[],True,[],[],[],[],unsure
+1076,,[],[],False,[],[],[],[],injury/trauma
+1077,,[],[],True,[],[],"['colon resection', 'sinus surgery']",[],unsure
+1078,,[],[],True,['tiredness'],[],[],['tiredness'],unsure
+1079,lightheadedness and vertigo episodes,[],[],False,[],[],[],"['lightheadedness', 'vertigo', 'nausea', 'vomiting', 'right arm numbness']",neurological
+1080,bee sting with redness and swelling,[],"['hydrochlorothiazide', 'metoprolol', 'aspirin']",False,[],['hypertension'],[],"['redness', 'swelling']",infectious
+1081,,[],[],False,[],[],[],[],unsure
+1082,,[],[],False,[],[],[],[],unsure
+1083,,[],[],False,[],[],[],[],unsure
+1084,,[],"['Accutane', 'Ovcon']",False,[],[],[],[],unsure
+1085,,[],['tylenol'],False,[],[],[],['pain'],unsure
+1086,back and joint pain with deep breath,[],[],False,[],"['interstitial lung disease', 'lupus pneumonitis']",[],"['back pain', 'joint pain', 'fatigue']",respiratory
+1087,intermittent hyperesthesia right abdomen,[],[],True,[],[],[],"['pain right abdomen', 'pain left abdomen', 'pain left medial thigh', 'painful to touch']",dermatological
+1088,follow-up post cancer treatment,[],[],False,[],['cancer remission'],[],[],oncology
+1089,,[],[],True,[],[],[],[],unsure
+1090,debilitating bilateral knee arthritis,[],[],True,[],['degenerative arthritis'],[],"['arthritis', 'debilitating pain']",musculoskeletal
+1091,,[],[],True,[],[],[],[],unsure
+1092,,"['epilepsy', 'seizures on maternal side']",[],False,[],[],[],[],neurological
+1093,,[],[],False,[],[],[],[],respiratory
+1094,,[],[],False,[],"['hypertension', 'type 2 diabetes mellitus', 'asthma', 'high cholesterol']",[],[],endocrine
+1095,,[],[],False,[],"['GERD', 'irritable bowel syndrome', 'seasonal asthma', 'bilateral carpal tunnel syndrome']","['right orchiectomy', 'excision of abdominal teratoma', 'incisional hernia repair']","['postnasal drip', 'allergic symptoms']",respiratory
+1096,left knee pain and instability,[],[],False,[],"['left knee arthritis', 'axial low back pain']","['two left knee arthroscopies', 'patellar replacement', 'left total knee arthroplasty']","['left knee pain', 'intermittent numbness and tingling in posterolateral thigh', 'axial low back pain', 'swelling', 'popping', 'grinding', 'pins and needles sensation over fibular head']",musculoskeletal
+1097,back pain due to L5 compression fracture,[],['antiinflammatories'],False,[],"['L5 compression fracture', 'back and buttock pain']",[],['back pain'],musculoskeletal
+1098,right knee injury,[],[],False,[],['ACL injury'],"['ACL reconstruction', 'ACL revision']","['pain', 'instability', 'swelling']",musculoskeletal
+1099,wheezing,[],['antibiotics'],False,[],[],[],['wheezing'],respiratory
+1100,,[],[],False,[],[],[],[],unsure
+1101,fall with facial abrasions,[],[],False,[],[],[],"['pain chin', 'pain right forehead', 'abrasions chin', 'abrasions right forehead', 'dazed']",injury/trauma
+1102,,[],[],False,[],[],[],[],unsure
+1103,"follow-up neuroblastoma, nasal congestion",[],"['carboplatin', 'cyclophosphamide', 'doxorubicin', 'G-CSF', 'fluconazole']",True,[],"['neuroblastoma', 'neutropenia']",['left neuroblastoma resection'],"['nasal congestion', 'diminished appetite', 'thrush']",oncology
+1104,left hip pain,[],['pain medication'],False,[],"['avascular necrosis', 'degenerative hip disease']",[],"['left hip pain', 'groin pain', 'pain radiating to legs', 'difficulty walking']",musculoskeletal
+1105,,[],[],False,[],[],[],[],dermatological
+1106,confusion,[],[],False,['confusion'],[],[],['confusion'],neurological
+1107,,[],[],False,[],[],[],[],unsure
+1108,,[],[],True,[],[],[],[],unsure
+1109,,[],[],False,[],[],[],[],unsure
+1110,,[],[],True,[],[],[],[],unsure
+1111,,[],[],False,[],[],[],[],unsure
+1112,chest pain,[],[],True,[],['hyperlipidemia'],[],['chest pain'],cardiovascular
+1113,,[],[],False,[],[],[],[],unsure
+1114,back pain with radiation to left leg,[],['ultracet'],False,[],[],[],"['back pain', 'pain in left leg', 'weakness in left leg']",musculoskeletal
+1115,recurrent skin rash suggestive of erythema nodosum,[],[],False,[],"['erythema nodosum', 'inflammatory arthritis', 'iron deficiency', 'B12 deficiency']",['jaw cosmetic surgery'],"['skin rash', 'rash in lower extremities and ankles', 'MTP discomfort']",dermatological
+1116,,[],[],False,[],[],[],[],unsure
+1117,high blood pressure,[],[],False,[],['hypertension'],[],['high blood pressure'],cardiovascular
+1118,,"['mother had a stroke', 'father had colon cancer']",[],False,[],[],[],[],unsure
+1119,follow up,[],[],False,[],['adult-onset diabetes'],[],[],endocrine
+1120,,[],[],False,[],[],"['cholecystectomy', 'eye surgery', 'dilation and curettage']",[],unsure
+1121,feeling strange after taking Ecstasy,[],[],False,"['sadness', 'agitation']",[],[],"['heart racing', 'feeling strange', 'agitation', 'sadness']",toxicology
+1122,,"['husband had prostate cancer', ""doctor's sister had cervical cancer""]",[],True,[],[],[],[],unsure
+1123,depressed mood,[],[],True,['depression'],[],[],['depressed mood'],psychiatric
+1124,,[],[],True,[],[],[],[],unsure
+1125,lap band adjustment issues,[],[],False,['stress'],[],['lap band placement'],"['lack of fullness', 'hunger at night']",gastrointestinal
+1126,,[],[],False,[],[],[],[],unsure
+1127,,[],[],False,[],[],[],[],unsure
+1128,,[],[],False,[],[],[],[],unsure
+1129,,[],[],False,[],[],[],"['fever', 'chills', 'nausea', 'vomiting', 'diarrhea', 'incision site redness', 'incision site drainage', 'incision site warmth']",unsure
+1130,allergic rhinitis,[],[],False,[],[],[],['nasal allergy'],respiratory
+1131,thrombocytopenia,[],[],False,[],['thrombocytopenia'],[],[],hematologic
+1132,discomfort on right side,[],['insulin'],False,[],"['stroke', 'diabetes']",[],['discomfort on right side'],neurological
+1133,,[],['omeprazole'],False,[],[],[],[],unsure
+1134,,[],[],False,[],"['asthma', 'allergic rhinitis', 'cervical dysplasia']",[],[],respiratory
+1135,,[],[],False,[],[],[],[],musculoskeletal
+1136,,[],[],True,"['anxiety', 'depression']","['osteoarthritis', 'sciatic pain', 'herniated disc', 'migraine']",['appendectomy'],[],psychiatric
+1137,chronic fatigue and depression,[],['prozac'],False,"['depression', 'sadness']","['chronic fatigue', 'depression']",[],"['fatigue', 'sadness']",psychiatric
+1138,,[],[],True,[],[],[],[],unsure
+1139,recurrent falls and progressive hand numbness and weakness,[],[],False,[],"['pneumonia', 'shingles', 'blood pressure drops']",[],"['falls', 'lightheadedness', 'confusion', 'hand numbness', 'muscle weakness', 'fasciculations', 'constipation', 'diarrhea', 'presyncope', 'loss of sensation in feet', 'loss of joint position sense']",neurological
+1140,,[],[],True,[],[],[],[],musculoskeletal
+1141,Back and neck pain,[],[],False,[],['chronic neck pain'],[],"['neck pain', 'back pain']",musculoskeletal
+1142,neck and lower back pain after motor vehicle accident,[],[],True,['difficulty sleeping'],[],[],"['neck pain', 'severe neck pain', 'lumbar back pain', 'radiating back pain', 'stiffness', 'difficulty sleeping']",injury/trauma
+1143,,[],[],False,[],[],[],[],respiratory
+1144,allergies,[],"['Claritin', 'Zyrtec', 'Allegra']",False,[],['asthma'],[],['allergies'],respiratory
+1145,,[],[],False,[],"['hyperthyroidism', 'hypertension', 'gallbladder difficulties']",[],[],endocrine
+1146,,[],[],False,[],[],[],[],unsure
+1147,migraine with aura,[],[],False,[],['migraine'],[],['migraine with aura'],neurological
+1148,back and knee pain,[],[],True,[],[],[],"['back pain', 'knee pain']",musculoskeletal
+1149,,['diabetes mellitus in maternal grandmother'],[],False,[],[],[],[],endocrine
+1150,terminal cancer,[],[],False,[],['terminal cancer'],[],[],oncology
+1151,,[],[],False,[],[],[],[],unsure
+1152,dislocated wrist,[],[],False,[],[],[],['dislocated wrist'],injury/trauma
+1153,,[],[],False,[],[],[],[],genitourinary
+1154,,['coronary artery disease'],[],False,[],[],[],[],cardiovascular
+1155,left elbow pain after fight,[],[],False,[],['left knee pain'],[],"['left elbow pain', 'left ankle pain', 'head hit']",injury/trauma
+1156,,"['heart disease', 'carcinoma', 'hypertension', 'food allergies']",[],False,[],[],[],[],unsure
+1157,left leg swelling,[],"['atenolol', 'lasix']",False,[],"['leukocytosis', 'hypertension']",[],"['left leg swelling', 'right leg swelling', 'left shoulder pain', 'left shoulder weakness', 'left shoulder limited mobility', 'low back pain', 'urinary frequency', 'nocturia', 'weight gain', 'shortness of breath']",cardiovascular
+1158,,[],[],False,[],[],[],[],unsure
+1159,,[],[],False,[],[],[],[],unsure
+1160,,[],[],False,[],[],[],[],musculoskeletal
+1161,,"['father had transient ischemic attacks', 'mother had congestive heart failure', 'mother had atrial fibrillation', 'mother had coronary artery disease', 'maternal grandfather had myocardial infarction', 'maternal grandfather had supraventricular tachycardia', 'maternal grandmother had supraventricular tachycardia']",[],False,[],[],[],[],cardiovascular
+1162,mouth sores,[],"['methotrexate', 'aspirin']",True,[],"['rheumatoid arthritis', 'sinus infection']",[],"['mouth sores', 'ulcerations', 'stomatitis']",infectious
+1163,allergies,[],['allegra'],True,[],['asthma'],[],['allergies'],respiratory
+1164,,[],[],False,[],[],[],[],unsure
+1165,large nodular thyroid goiter,[],[],False,[],[],[],"['pain', 'coughing']",endocrine
+1166,,[],[],False,[],[],[],[],unsure
+1167,,[],[],False,[],[],[],[],unsure
+1168,,[],[],False,[],[],[],[],unsure
+1169,,[],[],False,[],[],[],[],unsure
+1170,,"['mother had cancer', 'father had cancer', 'half-brother has asthma']",[],False,[],[],[],[],unsure
+1171,,[],[],False,[],['asthma'],[],[],respiratory
+1172,anosmia and decreased vision OD,[],[],False,[],[],['shoulder surgery'],"['anosmia', 'decreased vision OD']",neurological
+1173,,[],[],False,[],[],[],[],unsure
+1174,,[],['tylenol'],False,[],[],[],['pain'],unsure
+1175,right hand pain and numbness,[],[],True,[],['carpal tunnel syndrome'],[],"['right hand pain', 'numbness', 'catching and locking of index and middle fingers', 'decreased range of motion']",musculoskeletal
+1176,,[],[],True,[],[],[],[],unsure
+1177,right hip pain,[],[],False,[],[],[],['hip pain'],musculoskeletal
+1178,,[],[],False,[],[],[],[],unsure
+1179,osteoarthritis bilateral knees,[],[],False,[],"['osteoarthritis', 'flexion contracture']",[],"['knee pain', 'stiffness', 'weakness']",musculoskeletal
+1180,right arm weakness and speech difficulty,[],[],False,[],[],[],"['right arm weakness', 'speech difficulty']",neurological
+1181,right shoulder pain,[],[],False,[],[],[],['right shoulder pain'],musculoskeletal
+1182,leg pain,[],"['advil', 'motrin', 'tylenol pm']",False,[],['sensory loss L4 to S1'],['lipomyomeningocele repair'],"['leg pain', 'loss of feeling in big toe and calf', 'patchy sensory loss']",neurological
+1183,,[],[],False,[],[],[],[],unsure
+1184,surveillance post lobectomy,[],[],False,[],"['non-small cell lung cancer', 'deep vein thrombosis']",['left upper lobectomy'],"['odynophagia', 'mid thoracic dysphagia', 'chest pain with swallowing', 'left calf enlargement']",oncology
+1185,,"['colon cancer', 'breast cancer']",[],False,[],"['heart disease', 'hypertension', 'cerebrovascular accident']",[],[],cardiovascular
+1186,,[],[],True,[],"['no diabetes', 'no thyroid problems', 'no history of CVA or TIA']",[],[],unsure
+1187,blood sugar monitoring,[],[],False,[],['diabetes'],[],[],endocrine
+1188,sick sinus syndrome,[],[],False,[],['sick sinus syndrome'],[],[],cardiovascular
+1189,,[],[],True,[],[],[],[],unsure
+1190,left leg pain,[],[],False,[],[],[],['leg pain'],musculoskeletal
+1191,,[],[],False,[],['allergic reactions'],[],[],unsure
+1192,,[],[],True,[],[],[],['smoking'],respiratory
+1193,,[],[],True,[],[],[],[],unsure
+1194,,[],['percocet'],False,[],"['coronary artery disease', 'radical prostate cancer', 'hypertension', 'lumbar stenosis', 'hyperlipidemia']","['CABG', 'radical prostatectomy', 'nephrectomy', 'lumbar surgery']",['back pain'],musculoskeletal
+1195,,[],[],False,[],[],[],[],unsure
+1196,Vasectomy,[],[],True,[],[],['vasectomy'],[],genitourinary
+1197,,[],"['tylenol #3', 'ibuprofen', 'methocarbamol']",False,[],[],[],['muscle spasms'],musculoskeletal
+1198,sick with cough and foot breakout,[],"['Allegra-D', 'Nizoral cream']",False,[],"['tinea pedis', 'high cholesterol']",[],"['cough', 'yellow phlegm', 'chest congestion', 'foot breakout', 'wart on right middle finger']",infectious
+1199,,[],[],True,[],[],[],[],unsure

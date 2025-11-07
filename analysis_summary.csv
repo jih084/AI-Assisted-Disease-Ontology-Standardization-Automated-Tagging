@@ -1,0 +1,8 @@
+question,answer
+Q0: What are the top five most-mentioned medications?,ibuprofen (11); acetaminophen (10); insulin (9); coumadin (7); antiinflammatories (6)
+Q1: What proportion of visits include mental health mentions?,7.8% of analyzed visits.
+Q4: How strongly are chronic conditions related to number of medications?,Correlation coefficient = 0.16 (positive means more conditions → more meds).
+Q8: Do chronic patients engage in more small talk?,"Chronic visits: 12.0%, Non-chronic visits: 15.0%"
+Q11: How does family heart history relate to disease category?,Distribution by category (percent of each group):
+   • Family heart=False,"allergic/infectious: 0.1%, allergy/immune: 0.1%, cardiovascular: 5.0%, dermatological: 2.2%, endocrine: 3.1%, gastrointestinal: 3.9%, genitourinary: 2.5%, hematologic: 0.1%, hematologic/lymphatic: 0.1%, infectious: 4.2%, injury/trauma: 4.2%, musculoskeletal: 8.2%, neurological: 7.7%, obstetrics/gynecology: 1.1%, oncology: 3.2%, ophthalmology: 0.1%, psychiatric: 3.8%, respiratory: 6.2%, toxicology: 1.0%, unsure: 43.2%"
+   • Family heart=True,"allergic/infectious: 0.0%, allergy/immune: 0.0%, cardiovascular: 35.5%, dermatological: 0.0%, endocrine: 0.0%, gastrointestinal: 0.0%, genitourinary: 0.0%, hematologic: 0.0%, hematologic/lymphatic: 0.0%, infectious: 0.0%, injury/trauma: 0.0%, musculoskeletal: 0.0%, neurological: 0.0%, obstetrics/gynecology: 0.0%, oncology: 6.5%, ophthalmology: 0.0%, psychiatric: 0.0%, respiratory: 0.0%, toxicology: 0.0%, unsure: 58.1%"
