@@ -1,26 +1,34 @@
 # AI-Assisted-Disease-Ontology-Standardization-Automated-Tagging
 DSC 180A B23 Capstone project
+This repository contains two integrated components developed for the DSC 180A B23 Capstone:
 
-# Medical Conversation Structured Extraction & Analysis
+1. **Medical Conversation Structured Extraction (MTS-Dialog Component)**  
+   Tools for parsing raw clinical dialogues and generating structured visit summaries.
 
-This project parses a clinical dialogue dataset (MTS-Dialog) and uses a Large Language Model (LLM) to extract structured visit summaries. It then performs exploratory analyses such as medication frequency, small talk prevalence, and relationships between family history and disease categories.
-
-The final output includes:
-- `visit_summaries.csv`: One structured summary per visit.
-- `analysis_summary.csv`: Results for several higher-level research questions.
-- `top5_medications.csv`: Frequency counts of normalized medication names.
+2. **Alzheimer’s Drug Repurposing Literature Mining (Current Component)**  
+   A pipeline that retrieves PubMed abstracts related to Alzheimer’s disease and automatically extracts candidate repurposed drugs, their mechanisms, stance of evidence (supportive vs inconclusive), and key supporting sentences.
 
 ---
 
-## 1. Dataset Access
+## 1. Data Access
 
-This project uses the **MTS-Dialog Training Set dataset**, hosted at:
+### A) PubMed Abstracts (Current Component)
+Retrieved automatically via **NCBI E-utilities API** (Biopython) using the query:
+("Alzheimer Disease"[MeSH Major Topic] OR Alzheimer*[Title/Abstract])
+AND ("Drug Repositioning"[MeSH Terms] OR repurpos* OR reposition* OR "drug rediscovery")
+AND hasabstract[text]
+AND english[Language]
+AND (1980:3000[pdat])
+
+
+Output stored as:
+data/abstracts.csv
+
+### B) MTS-Dialog Dataset (Previous Component)
+Source:  
 https://raw.githubusercontent.com/abachaa/MTS-Dialog/main/Main-Dataset/MTS-Dialog-TrainingSet.csv
 
-
-No manual download is required. The code pulls the dataset directly via `pandas.read_csv`.
-
-If needed, you can download it manually and replace the URL in the script.
+Loaded directly via `pandas.read_csv`.
 
 ---
 
@@ -29,55 +37,49 @@ If needed, you can download it manually and replace the URL in the script.
 ### Python Version
 Python 3.12
 
-### Recommended Environment Setup (conda)
-conda create -n dsc180 python=3.12
+### Recommended Environment Setup
+```bash
+conda create -n dsc180 python=3.12 -y
 conda activate dsc180
-
-
-### Install Dependencies
-pip install pandas pydantic tqdm semlib litellm
-
-You must also have an OpenAI-compatible API key set in your environment:
+Install Dependencies
+pip install pandas tqdm biopython openai
+(Optional NER model):
+pip install scispacy spacy
+Required Environment Variables
+export NCBI_EMAIL="your_email@ucsd.edu"
 export OPENAI_API_KEY="your_api_key_here"
+```
+### 3. Running the Code
 
+#### Step 1 — Fetch PubMed Abstracts
+python fetch_pubmed.py --query-file query_examples.txt --retmax 500 --out data/abstracts.csv
+#### Step 2 — Extract Drug Candidates (Cost-Controlled)
+python openai_extract_candidates.py \
+  --input data/abstracts.csv \
+  --output data/openai_candidates_raw.csv \
+  --limit 500 \
+  --max-cost 2.00 \
+  --model gpt-4o-mini \
+  --verbose
+#### Step 3 — Flatten & Summarize Results
+python flatten_openai_json.py \
+  --in data/openai_candidates_raw.csv \
+  --out data/openai_candidates_table.csv \
+  --summary data/candidate_summary.csv
 
----
+### 4.Output Files
+| File                                                                                         | Description                                        |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `data/abstracts.csv`                                                                         | PubMed PMIDs, titles, and abstracts                |
+| `openai_candidates_raw.csv`                                                                  | One extracted JSON result per abstract             |
+| `openai_candidates_table.csv`                                                                | Tidy table with drug, mechanism, stance, evidence  |
+| `candidate_summary.csv`                                                                      | Aggregated candidate hit counts by stance          |
+| (MTS-Dialog Component) `visit_summaries.csv`, `analysis_summary.csv`, `top5_medications.csv` | Structured dialogue summaries and analysis results |
 
-## 3. Running the Code
-
-### File Overview
-| File | Purpose |
-|------|---------|
-| `mts_extract.py` | Extracts structured summaries and runs analysis. |
-| `visit_summaries.csv` | Output structured dataset of visits. |
-| `analysis_summary.csv` | Output results of key research questions. |
-| `top5_medications.csv` | Medication frequency counts. |
-
----
-
-### **A) Dry Run Preview (No API Calls, Safe Test)**
-DRY_RUN=1 python mts_extract.py
-This prints a preview of two grouped visits so you can verify the data grouping is correct.
-
----
-
-### **B) Run on a Subset (Recommended for Cost Control)**
-LIMIT_VISITS=50 python mts_extract.py
-
-
----
-
-### **C) Run on Full Dataset**
-*(Expect higher token usage & longer runtime)*
-
-LIMIT_VISITS=1200 python mts_extract.py
-
-If you encounter **rate limits**, reduce concurrency:
-Inside the script:
-```python
-session = Session(..., max_concurrency=3)
-
-### 7. Citation
-If using the dataset, cite the MTS-Dialog authors:
-
+#### Citation Guidance
+If using the MTS-Dialog dataset:
 A. Bachaa et al. "MTS-Dialog: Medical Transcripts Structured Dataset", 2021.
+If using PubMed:
+National Center for Biotechnology Information (NCBI). PubMed database.
+If reporting drug extraction results:
+OpenAI API, 2025.
