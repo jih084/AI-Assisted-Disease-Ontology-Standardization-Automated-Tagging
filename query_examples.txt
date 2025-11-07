@@ -1,0 +1,13 @@
+(
+  "Alzheimer Disease"[MeSH Major Topic]
+  OR Alzheimer*[Title/Abstract]
+)
+AND (
+  "Drug Repositioning"[MeSH Terms]
+  OR repurpos*[Title/Abstract]
+  OR reposition*[Title/Abstract]
+  OR "drug rediscovery"[Title/Abstract]
+)
+AND (hasabstract[text])
+AND (english[Language])
+AND (1980:3000[pdat])
